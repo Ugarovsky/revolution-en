@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://bitcoin-pro.live/sitemap.xml

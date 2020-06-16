@@ -1,0 +1,51 @@
+{
+    "name": "btctalk",
+    "version": "1.0.0",
+    "description": "Test project TTC Lander",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack --mode development",
+        "watch": "webpack --mode development --watch",
+        "hot": "webpack-dev-server --mode development --hot",
+        "build": "rm -rf ./dist/ && webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@gitlab.com/Vino99/btctalk.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/Vino99/btctalk/issues"
+    },
+    "homepage": "https://gitlab.com/Vino99/btctalk#readme",
+    "devDependencies": {
+        "@babel/core": "^7.6.0",
+        "@babel/preset-env": "^7.6.0",
+        "@fortawesome/fontawesome-free": "^5.11.2",
+        "@fullhuman/postcss-purgecss": "^1.2.0",
+        "autoprefixer": "^9.6.1",
+        "babel-loader": "^8.0.6",
+        "bootstrap": "^4.3.1",
+        "copy-webpack-plugin": "^5.0.4",
+        "critters-webpack-plugin": "^2.4.0",
+        "css-loader": "^3.2.0",
+        "cssnano": "^4.1.10",
+        "html-webpack-plugin": "^3.2.0",
+        "html-webpack-string-replace-plugin": "^1.1.0",
+        "intl-tel-input": "^16.0.4",
+        "jquery": "^3.4.1",
+        "mini-css-extract-plugin": "^0.8.0",
+        "popper.js": "^1.15.0",
+        "postcss-loader": "^3.0.0",
+        "sass": "^1.22.12",
+        "sass-loader": "^8.0.0",
+        "sitemap-generator-cli": "^4.3.0",
+        "style-loader": "^1.0.0",
+        "webpack": "^4.40.2",
+        "webpack-cli": "^3.3.8",
+        "webpack-dev-server": "^3.8.0"
+    },
+    "dependencies": {}
+}
