@@ -52,12 +52,11 @@ module.exports = {
             }, {
 
                 // Look for images and pass them through the url-loader
-                test: /\.(png|jp(e*)g|svg|gif)$/,
+                test: /\.(png|jp(e*)g|svg|gif|JPG|jpeg)$/,
                 use: [{
                     loader: 'url-loader',
                     options: {
-                        limit: 8000, // when image smaller then 8kb, convert to base64 string
-                        name: 'media/[hash]-[name].[ext]', // what name to give to images
+                        name: '[name].[ext]', // what name to give to images
                         publicPath: 'assets',
                     }
                 }]
@@ -163,7 +162,7 @@ module.exports = {
         // About Us
         new HtmlWebpackPlugin({
             title: 'Bitcoin Revolution About Us – Our Story',
-            filename: 'about/index.php',
+            filename: 'about-us/index.php',
             template: 'src/views/about.php',
             meta: {
                 'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
@@ -172,13 +171,45 @@ module.exports = {
             }
         }),
 
+        new HtmlWebpackPlugin({
+            title: 'Bitcoin Revolution terms',
+            filename: 'terms-conditions/index.php',
+            template: 'src/views/terms.php',
+        }),
+
+        new HtmlWebpackPlugin({
+            title: 'Bitcoin Revolution policy',
+            filename: 'privacy-policy/index.php',
+            template: 'src/views/privacy.php',
+        }),
+
+        new HtmlWebpackPlugin({
+            title: 'Bitcoin Revolution contacts',
+            filename: 'contact-us/index.php',
+            template: 'src/views/contact.php',
+        }),
+
+        new HtmlWebpackPlugin({
+            title: 'Bitcoin Revolution contacts',
+            filename: 'contact-us/index.php',
+            template: 'src/views/contact.php',
+        }),
+        
+
+        new HtmlWebpackPlugin({
+            title: 'Bitcoin Revolution contacts',
+            filename: 'cookie-policy/index.php',
+            template: 'src/views/cookie.php',
+        }),
+
+
 
 
 
 
         // Login
         new HtmlWebpackPlugin({
-            filename: 'login/index.php',
+            filename: 'account-login/index.php',
             template: 'src/views/login.php',
             meta: {
                 'viewport': 'width=device-width, initial-scale=1, shrink-to-fit=no',
