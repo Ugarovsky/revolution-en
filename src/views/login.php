@@ -2,8 +2,16 @@
   <meta charset="utf-8">
   <title>Login and Start Trading | Bitcoin Revolution</title>
   <meta name="description" content="You don't have to be a financial expert to use cutting-edge investment technology and make money trading Bitcoin. Our automated app does it all">
-
-
+  
+<link rel = «canonical» href = "https://bitcoinrevolution.ai"/>
+<meta property="og:locale" content="en_GB"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Login and start trading | Bitcoin Revolution"/>
+<meta property="og:description" content=" You don't have to be a financial expert to use cutting-edge investment technology and make money trading Bitcoin. Our automated app does it all."/>
+<meta property="og:url" content="https://bitcoinrevolution.ai/account-login/"/>
+<meta property="og:image" content="../favicon.ico"/>
+<meta property="og:image:width" content="100%"/>
+<meta property="og:image:height" content="Height"/>
   <script>
     var lang = 'en';
     var today = new Date();
@@ -26,7 +34,7 @@
   </section>
   <header class="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="?lp=1" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
          
@@ -37,7 +45,7 @@
               <div class="text-block-5">En</div>
               <div class="icon w-icon-dropdown-toggle"></div>
             </div>
-            <nav class="dropdown-list w-dropdown-list">
+            <nav class="dropdown-list w-dropdown-list" id="aas">
               <div class="div-block-32"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
               <div class="div-block-32"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
               <div class="div-block-32"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>

@@ -7,6 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Terms</title>
     <link rel="shortcut icon" href="/favicon.ico">
+    <script>
+    var lang = 'en';
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+    today = mm + '/' + dd + '/' + yyyy;
+    </script>
 </head>
 <body class="contact_page ready">
 
@@ -25,7 +33,7 @@ include('../helpers/gtm_no_script.php');
  </section>
  <header class="header">
    <div class="container w-container">
-     <div class="main-header-wrap"><a href="?lp=1" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+     <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
        <div class="exclusive-offer">
          <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
         

@@ -1,6 +1,15 @@
 <!DOCTYPE html><html data-wf-page="5e7e00ae09d0fef1c0b5ac6a" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
   <meta charset="utf-8">
   <title> About Us | Bitcoin Revolution</title>
+  <meta property="og:locale" content="en_GB"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="About Us | Bitcoin Revolution"/>
+<meta property="og:description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro."/>
+<meta property="og:url" content="https://bitcoinrevolution.ai/about-us/"/>
+<meta property="og:image" content="./favicon.ico"/>
+<meta property="og:image:width" content="100%"/>
+<meta property="og:image:height" content="Height"/>
+  <link rel = «canonical» href = "https://bitcoinrevolution.ai" />
   <meta name="description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro.">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <script>
@@ -27,7 +36,7 @@
   </section>
   <header class="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="?lp=1" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
          
@@ -38,7 +47,7 @@
               <div class="text-block-5">En</div>
               <div class="icon w-icon-dropdown-toggle"></div>
             </div>
-            <nav class="dropdown-list w-dropdown-list">
+            <nav class="dropdown-list w-dropdown-list" id="aas">
               <div class="div-block-32"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
               <div class="div-block-32"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
               <div class="div-block-32"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>

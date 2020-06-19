@@ -43,7 +43,7 @@ include('../helpers/gtm_no_script.php');
   </section>
   <header class="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="?lp=1" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
          
@@ -54,7 +54,7 @@ include('../helpers/gtm_no_script.php');
               <div class="text-block-5">En</div>
               <div class="icon w-icon-dropdown-toggle"></div>
             </div>
-            <nav class="dropdown-list w-dropdown-list">
+            <nav class="dropdown-list w-dropdown-list" id="aas">
               <div class="div-block-32"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
               <div class="div-block-32"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
               <div class="div-block-32"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
@@ -202,4 +202,11 @@ include('../helpers/gtm_no_script.php');
       </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
   </div>
 </body>
+
+<script>
+  
+function getLang() { 
+    $('#aas').slideDown('slow')
+  }
+</script>
 </html>

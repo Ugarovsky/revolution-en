@@ -2,6 +2,17 @@
   <meta charset="utf-8">
   <title>The Bitcoin Revolution App ™  Official Website</title>
   <meta name="description" content="Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here.">
+
+<link rel = «canonical» href = "https://bitcoinrevolution.ai" />
+<meta property="og:locale" content="en_GB"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="The Bitcoin Revolution App ™  Official Website"/>
+<meta property="og:description" content=" Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here."/>
+<meta property="og:url" content="https://bitcoinrevolution.ai/"/>
+<meta property="og:image" content="./favicon.ico"/>
+<meta property="og:image:width" content="Width"/>
+<meta property="og:image:height" content="Height"/>
+
 </head>
 
 <script>
@@ -27,7 +38,7 @@ today = mm + '/' + dd + '/' + yyyy;
   </section>
   <header class="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="?lp=1" aria-current="page" class="link-block w-inline-block w--current"><img src="./assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="./assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
          
@@ -38,7 +49,7 @@ today = mm + '/' + dd + '/' + yyyy;
               <div class="text-block-5">En</div>
               <div class="icon w-icon-dropdown-toggle"></div>
             </div>
-            <nav class="dropdown-list w-dropdown-list">
+            <nav class="dropdown-list w-dropdown-list" id="aas">
               <div class="div-block-32"><img width="20" src="./assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
               <div class="div-block-32"><img width="20" src="./assets/es.png" srcset="./assets/es-p-500.png 500w, ./assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
               <div class="div-block-32"><img width="20" src="./assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
@@ -206,7 +217,7 @@ today = mm + '/' + dd + '/' + yyyy;
           <div class="div-block-16 d16"><img src="./assets/step2.png" alt class="image-10">
             <h3 class="step-title">STEP TWO:</h3>
           </div>
-          <div class="text-block t1"><strong>Fund Your Account</strong></div>
+          <div class="text-block t1">Fund Your Account</div>
           <div class="text-block-2">Trading Bitcoin online requires an initial investment just as any other business would. Fund your account with as little as $250 to begin with and you’ll make money with Bitcoin Revolution in no time. 
           </div>
         </div>
