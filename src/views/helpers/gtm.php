@@ -1,7 +1,7 @@
 <?php
 	
-	$gtm_id = 'GTM-P682SMR';
-
+	// $gtm_id = 'GTM-P682SMR';
+    $gtm_id = '';
 ?>
 
 <!-- Google Tag Manager -->
