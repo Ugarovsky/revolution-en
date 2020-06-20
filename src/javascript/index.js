@@ -238,7 +238,7 @@ var lang = 'en';
     $("form").submit((function(e) {
         var t = $(this).serialize(),
             d = $(this).find(".btn_register").text();
-        return $(this).find(".btn_register").text("SENDING...").addClass("disabled_bttn"), $("#openModalLoading").addClass("open"), $.ajax({ url: "https://api.wickedtrack.com/leads", type: "POST", data: t, success: function(e) { $(".alert").text("").addClass("d-none"), window.location.href = window.location.origin + "/trading?token=" + e.token }, error: function(e) { setTimeout((function() { $(".btn_register").text(d).removeClass("disabled_bttn"), $("#openModalLoading").removeClass("open"), $(".alert").text("").removeClass("d-none"), $.each(e.responseJSON.errors, (function(e, t) { $(".alert").append(t + "<br />") })) }), 1200) } }), !1
+        return $(this).find(".btn_register").text("SENDING...").addClass("disabled_bttn"), $("#openModalLoading").addClass("open"), $.ajax({ url: "", type: "POST", data: t, success: function(e) { $(".alert").text("").addClass("d-none"), window.location.href = window.location.origin + "/trading?token=" + e.token }, error: function(e) { setTimeout((function() { $(".btn_register").text(d).removeClass("disabled_bttn"), $("#openModalLoading").removeClass("open"), $(".alert").text("").removeClass("d-none"), $.each(e.responseJSON.errors, (function(e, t) { $(".alert").append(t + "<br />") })) }), 1200) } }), !1
     })), $(".formContainer form").on("submit", (function(e) { return e.preventDefault(), window.location.href = "/", !1 })), document.getElementById("table_profits") && setInterval((function() {
         ! function() {
             for (var e = document.getElementById("table_profits").querySelectorAll("tr"), t = Array.from(e).slice(1), d = t.length - 1; d > 0; d--) {
