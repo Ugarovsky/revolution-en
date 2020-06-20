@@ -7,7 +7,7 @@
         "dev": "webpack --mode development",
         "watch": "webpack --mode development --watch",
         "hot": "webpack-dev-server --mode development --hot",
-        "build": "rm -rf ./dist/ && webpack --mode production"
+        "build": "webpack --mode production"
     },
     "repository": {
         "type": "git",
