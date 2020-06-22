@@ -69,7 +69,7 @@ today = mm + '/' + dd + '/' + yyyy;
           <div class="column-11 w-col w-col-8 w-col-stack">
             <div class="algo-video-container">
               <div class="video">
-                <div class="html-embed-3 w-embed"><video width="100%" src="./assets/the-bitcoinrevolution_EN_INDEX.mp4" loop="true" autoplay controls="true" style="display: block;object-fit: cover;" poster="./assets/poster.png"></video></div>
+                <div class="html-embed-3 w-embed"><video width="100%" src="./assets/the-bitcoinrevolution_EN_INDEX.mp4"  autoplay="true" controls="true" style="display: block;object-fit: cover;" poster="./assets/poster.png"></video></div>
               </div>
             </div>
           </div>
@@ -115,6 +115,10 @@ today = mm + '/' + dd + '/' + yyyy;
                         <div class="warning-icon"></div>
                       </div>
                     </div>
+                    
+	<input type="hidden" name="funnel" value="bitcoins-pro">
+	<input type="hidden" name="affid" value="2114">
+	<input type="hidden" name="_ip" value="<?php echo $clientIP; ?>">
                   </div><input type="submit" value="GET STARTED NOW!" data-wait="Please wait..." class="btn-primary btn-sm btn-100 w-button">
                   <div class="scenario-input w-embed"><input type="hidden" name="scenario" value="_user_registration_without_phone"></div>
                 </form>

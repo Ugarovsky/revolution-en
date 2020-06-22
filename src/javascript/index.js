@@ -1,5 +1,5 @@
-import '../styles/sass/styles.scss';
-import '../styles/sass/build.scss'; // optional if you need to include the old build.scss
+import "../styles/sass/styles.scss";
+import "../styles/sass/build.scss"; // optional if you need to include the old build.scss
 var lang = 'en';
 ! function() {
     "use strict";
@@ -7094,3 +7094,201 @@ var lang = 'en';
         }()
     }(window, document), e.exports ? e.exports = n : window.intlTelInput = n
 }]);
+
+window.$ = window.jQuery = require("jquery");
+
+/*** scrolling mechanism ***/
+$(".scroll_to_top").on("click", function () {
+    $([document.documentElement, document.body]).animate(
+        {
+            scrollTop: $(".form_wrapper").offset().top,
+        },
+        1000
+    );
+});
+/*** end scrolling mechanism ***/
+
+/*** timer ***/
+
+function startTimer(duration, display) {
+    var timer = duration,
+        minutes,
+        seconds;
+
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+$(".prefilled_password input[name=password]").val(randomPass());
+
+$(".generate-pw-btn").click(function (e) {
+    e.preventDefault();
+    $("input[name=password]").val(randomPass());
+    return false;
+});
+
+function randomPass() {
+    return Math.random().toString(36).slice(-8);
+}
+/*** end pasword generator ***/
+
+/*** telephone input ***/
+
+// <input class="phone" name="phone">
+// <input class="phone" name="area_code">
+require("intl-tel-input/build/css/intlTelInput.css"); // import tel input css
+require("intl-tel-input/build/js/utils"); // import tel input utils
+import intlTelInput from "intl-tel-input";
+
+let isoCode = document.head.querySelector("[name~=isoCode][content]").content;
+let inputs = document.getElementsByClassName("phone");
+let inputWrappers = document.getElementsByClassName("iti");
+let inputsArea = document.getElementsByClassName("area_code");
+
+// loop, create and set inputs
+for (var i = 0; i < inputs.length; i++) {
+    let iti = intlTelInput(inputs[i], {
+        initialCountry: isoCode,
+    });
+
+    inputWrappers[i].style.width = "100%"; // make component fit form
+    inputsArea[i].value = "+" + iti.getSelectedCountryData().dialCode; // set area code input field
+}
+/*** end telephone input ***/
+
+// /*** form ***/
+$('form').submit(function (event) {
+    let data = $(this).serialize();
+    let originalBttnTxt = $(this).find('.btn_register').text();
+
+    // loading state
+    $(this).find('.btn_register').text('SENDING...').addClass('disabled_bttn');
+    $('#openModalLoading').addClass('open');
+
+    $.ajax({
+
+        url: './leads.php',
+
+        type: 'POST',
+
+        data,
+
+        success: function (data) {
+
+            $('.alert').text('').addClass('d-none');
+            handleRedirect(data);
+        },
+
+        error: function (error) {
+            setTimeout(function () {
+                $('.btn_register').text(originalBttnTxt).removeClass('disabled_bttn');
+                $('#openModalLoading').removeClass('open');
+                $('.alert').text('').removeClass('d-none');
+
+                $.each(error.responseJSON.errors, function (i, errorMsg) {
+                    $('.alert').append(errorMsg + "<br />");
+                });
+            }, 1200);
+        }
+    });
+
+    return false;
+});
+/*** end form ***/
+
+function handleRedirect(response) {
+    const { params, method, url } = response.extras.redirect;
+
+    switch (method) {
+        case 'get':
+            if (!params.length) {
+                window.location.href = url;
+            }
+
+            const query = buildQuery(params);
+            url = `${url}?${query}`;
+
+            window.location.href = url;
+
+            break;
+        case 'post':
+            const form = document.createElement('form');
+            form.style.display = 'none';
+            form.setAttribute('method', 'post');
+            form.setAttribute('action', url);
+
+            for (let key in params) {
+                if (params.hasOwnProperty(key)) {
+                    let hiddenField = document.createElement('input');
+                    hiddenField.setAttribute('name', key);
+                    hiddenField.setAttribute('value', params[key])
+
+                    form.appendChild(hiddenField);
+                }
+            }
+
+            document.body.appendChild(form);
+            form.submit();
+            break;
+        default:
+            break;
+    }
+}
+
+function buildQuery(params = {}) {
+    return Object.keys(params)
+        .map((k) => encodeURIComponent(k) + '=' + encodeURIComponent(params[k]))
+        .join('&')
+}
+
+/*** contact form ***/
+$(".formContainer form").on("submit", function (e) {
+    e.preventDefault();
+    window.location.href = "/";
+    return false;
+});
+/*** end contact form ***/
+
+/*** random table ***/
+function sortTable() {
+    //1. get all rows
+    let rowsCollection = document
+        .getElementById("table_profits")
+        .querySelectorAll("tr");
+
+    //2. convert to array
+    let rows = Array.from(rowsCollection).slice(1); // skip the header row
+
+    //3. shuffle
+    for (var i = rows.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = rows[i];
+        rows[i] = rows[j];
+        rows[j] = temp;
+    }
+
+    //4. add back to the DOM
+    for (const row of rows) {
+        $("#table_profits").find("tbody").append(row);
+    }
+}
+
+//5. repeat
+if (document.getElementById("table_profits")) {
+    setInterval(function () {
+        sortTable();
+    }, 3000);
+}
+    /*** end random table ***/
+

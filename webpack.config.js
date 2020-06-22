@@ -122,6 +122,11 @@ module.exports = {
             inject: false // don't inject any js files
         }),
 
+        new HtmlWebpackPlugin({
+            filename: 'leads.php',
+            template: 'src/leads.php',
+            inject: false // don't inject any js files
+        }),
 
 
         // 
