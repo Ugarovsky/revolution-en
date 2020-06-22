@@ -199,6 +199,7 @@ include('../helpers/gtm_no_script.php');
           <a href="../terms-conditions/" class="nav-link-5 w-nav-link">Terms and conditions</a><a href="./" class="nav-link-6 w-nav-link">Privacy Policy</a>
     <a href="../cookie-policy/" class="nav-link-6 w-nav-link">cookie policy</a>
         <a href="../contact-us/" class="nav-link-6 w-nav-link">contact us</a></nav>
+        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a>
       </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
   </div>
 </body>

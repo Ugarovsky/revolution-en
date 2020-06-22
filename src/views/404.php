@@ -1,7 +1,6 @@
 <?php header('X-Robots-Tag: noindex, nofollow', true); ?>
 
 
-<?php include('../helpers/country_info.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,10 +48,6 @@
 
         </div>
     </section>
-    <!-- JOIN US SECTION-1 END -->
-
-
-    <?php include('../partials/footer.php'); ?>
 
 
 </body>

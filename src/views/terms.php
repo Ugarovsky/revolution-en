@@ -437,7 +437,7 @@ include('../helpers/gtm_no_script.php');
       <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar-2 w-nav">
         <nav role="navigation" class="nav-menu-2 w-nav-menu">
           <a href="../account-login/" class="nav-link-4 w-nav-link">Login</a>
-          <a href="../" class="nav-link-4 w-nav-link">About us</a>
+          <a href="../about-us" class="nav-link-4 w-nav-link">About us</a>
           <a href="./" class="nav-link-5 w-nav-link">Terms and conditions</a>
           <a href="../privacy-policy" class="nav-link-6 w-nav-link">Privacy Policy</a>
           <a href="../cookie-policy/" class="nav-link-6 w-nav-link">cookie policy</a>
@@ -445,4 +445,11 @@ include('../helpers/gtm_no_script.php');
       </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
   </div>
 </body>
+
+<script>
+function getLang() { 
+    $('#aas').slideDown('slow')
+  }
+</script>
+
 </html>

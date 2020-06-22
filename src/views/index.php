@@ -67,9 +67,9 @@ today = mm + '/' + dd + '/' + yyyy;
         <p class="home-subtitle-yellow" style="line-height: 35px;">Welcome Financial Freedom into your life and start trading like a Pro Right Now!</p>
         <div class="columns-10 w-row">
           <div class="column-11 w-col w-col-8 w-col-stack">
-            <div class="algo-video-container"><a href="#" class="algo-video-play-btn"></a>
+            <div class="algo-video-container">
               <div class="video">
-                <div class="html-embed-3 w-embed"><video width="100%" src="./assets/the-bitcoinrevolution_EN_INDEX.mp4" loop="true" style="display: block;object-fit: cover;" poster="./assets/poster.png"></video></div>
+                <div class="html-embed-3 w-embed"><video width="100%" src="./assets/the-bitcoinrevolution_EN_INDEX.mp4" loop="true" autoplay controls="true" style="display: block;object-fit: cover;" poster="./assets/poster.png"></video></div>
               </div>
             </div>
           </div>
@@ -675,9 +675,97 @@ today = mm + '/' + dd + '/' + yyyy;
           <a href="./terms-conditions/" class="nav-link-5 w-nav-link">Terms and conditions</a><a href="../privacy-policy" class="nav-link-6 w-nav-link">Privacy Policy</a>
           <a href="./cookie-policy/" class="nav-link-6 w-nav-link">cookie policy</a>
         <a href="./contact-us/" class="nav-link-6 w-nav-link">contact us</a></nav>
-      </div><a href="./" aria-current="page" class="w-inline-block w--current"><img src="./assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
+        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a>
+       </div><a href="./" aria-current="page" class="w-inline-block w--current"><img src="./assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
   </div>
 </body>
+
+<script type="application/ld+json">
+{
+"@context": "https://bitcoinrevolution.ai",
+"@type": "FAQPage",
+"mainEntity": [{
+"@type": "Question",
+"name": "What is Bitcoin and how much is it worth?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Bitcoin (BTC) is a digital currency known as cryptocurrency in the trading world. While its functions are similar to those of traditional currency, Bitcoin is not centralized by a bank or a financial authority, which gives investors full control over transactions. Other than that, you can use it just like you would any other currency. Single units of Bitcoin are stored as computer files in digital wallet apps that can be managed from any mobile or desktop device. Bitcoins or percentages of a single Bitcoin can be sent to your wallet or to other people, and these transactions are recorded on a public list known as the blockchain. 
+As for the value of Bitcoin, it’s no secret that it increased considerably over the years. When the cryptocurrency first hit the market in 2009, a single unit was appraised at less than $1. By 2014, one Bitcoin was worth $700, and at the end of 2017 it hit an outstanding $20,000 per unit. By the end of 2020, its value per unit could double, which is why many traders invest in Bitcoin nowadays in order to make a profit. 
+"
+}
+}, {
+"@type": "Question",
+"name": "How do Bitcoin and Bitcoin Revolution work?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Bitcoins are essentially secure and encrypted blocks of data that have financial value just like regular money does. Therefore, cryptocurrencies can be used in similar ways. For example, when purchasing an item or multiple items with Bitcoin, the currency is transferred from the buyer to the seller just like euros or dollars would be. Thus, Bitcoins can be exchanged for various goods and services, or even cash, and this is exactly why they are so valuable.
+Traders who invest in Bitcoin are known as “miners”, and this is exactly what the Bitcoin Revolution platform can help you become. Joining the official website means that you can start transactioning cryptocurrency on the foreign exchange market automatically or manually, and thus mine Bitcoin for a profit. 
+"
+}
+}, {
+"@type": "Question",
+"name": "Is Bitcoin legal everywhere in the world?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Bitcoin is legal in many countries around the globe, including The United States of America, Canada, Australia, and the European Union. However, each region has the authority to regulate cryptocurrencies independently from decisions taken in other parts of the globe. Therefore, you should always check local laws before starting to mine Bitcoin or any other crypto for a profit. 
+Nonetheless, Bitcoin Revolution software is 100% legal and certified. The foreign exchange market is moving at a more rapid pace than ever before, which is why smart brokers rely on successful algorithms like the one provided by our app. Using the Bitcoin Revolution genuine platform for trading cryptos eliminates time wasted on taking decisions and making manual calculations. After all, we all know that time is money, and this is particularly true when it comes to the foreign exchange market. 
+"
+}
+}, {
+"@type": "Question",
+"name": "Can anyone use Bitcoin Revolution software?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "Yes, anyone can use Bitcoin Revolution software in order to trade cryptocurrencies or even standard currencies. Our app is designed with both novice investors and seasoned traders in mind. Its user-friendly interface allows for complete customization of trading parameters regardless of the user’s experience level."
+}
+}, {
+"@type": "Question",
+"name": "Do I need trading experience to use Bitcoin Revolution?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text":"Not at all. No prior trading experience is required when using the Bitcoin Revolution software, as you will not be buying and selling to and from a foreign exchange. Instead, you will be handling Bitcoin Contracts for Differences, or CFDs for short. This means that all you have to do is speculate on the price of Bitcoin and earn money when guessing price fluctuation points. "}
+} , {
+"@type": "Question",
+"name": "What are the benefits of Bitcoin Revolution?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text":"As a currency, Bitcoin is highly secure and completely anonymous. Its high market value and the fact that it is not controlled by a government or a bank recommend it as the superior currency choice when trading. And with the help of our revolutionary platform, the process is simplified and accessible to anyone who wants to start making money. Our legit and innovative software was created by an experienced team of financial experts, who by their powers combined created a highly successful algorithm. The algorithm in question assesses multiple markets in order to find the best trading opportunities for each client. Its laser precision is reflected by its 99.4% success rate and the fact that it always stays at least 0.01 seconds ahead of any other source."}
+} , {
+"@type": "Question",
+"name": "Are there any fees on Bitcoin Revolution?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text":"No, trading on Bitcoin Revolution does not involve any hidden fees, broker fees, or commissions. Joining and using the platform is 100% free and you will get to keep your deposits, investments, and profits in their entirety. What is more, withdrawals are not taxed in any way and are processed in a maximum of 24 hours after you put in your request. "}
+} , {
+"@type": "Question",
+"name": "Is Bitcoin Revolution safe to use?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text":"Of course! Bitcoin Revolution is 100% safe and secure, as our market-leading algorithm is designed in collaboration with some of the industry's most seasoned and reputable financial experts. The proprietary software behind the app has an accuracy rate of 99.4%, the highest you will find among other platforms of this kind. In addition to this, all of the information you provide is encrypted so as to protect the integrity of your sensitive personal data. "}
+}, {
+"@type": "Question",
+"name": "How much money can I make with Bitcoin Revolution?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text":"The possibilities of making a profit when trading with Bitcoin Revolution are endless. It all depends on how much cash you are willing to spend on the transactions you pursue. The more money you invest in Bitcoin Revolution, the more you will get in return in terms of sheer earnings. 
+As for the time spent doing so, you won’t have to dedicate more than a few minutes of every day to the platform. The updated and improved version of Bitcoin Revolution allows you to choose which currencies you want to trade for the day, as well as set your risk level, choose a strategy and so on. And if you choose to go fully automated, you won’t even have to do that. The software analyzes the market and finds trading opportunities for you, so you won’t have to spend any time on that. All you have to do is sit back and watch the profits roll in.
+"}
+}, {
+"@type": "Question",
+"name": "Who is behind Bitcoin Revolution?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text":"The Bitcoin Revolution algorithm was created by a dedicated team of brokers and financial experts with years of experience behind them on the foreign exchange market. This is why the app has the highest accuracy level in its field and is always ahead of the game when it comes to crucial price points that will earn you a profit. In addition to this, we also have a dedicated customer support team that works round the clock to cater to your needs."}
+}, {
+"@type": "Question",
+"name": "Is Bitcoin Revolution a scam?",
+"acceptedAnswer": {
+"@type": "Answer",
+"text":"No, Bitcoin Revolution is not a scam or a fake piece of software. It is an entirely legit and certified cryptocurrency trading platform that has the highest success rate on the market. Our platform is regulated by the government and delivers results that speak for themselves. But don’t take our word for it! Below, you will find a few of our genuine customer reviews that clearly highlight what other people that used the software had to say about Bitcoin Revolution. 
+"}
+}]
+}
+</script>
 
 <script>
   window.setFlagIcon = function (countryCode){

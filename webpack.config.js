@@ -148,6 +148,12 @@ module.exports = {
         }),
 
 
+        new HtmlWebpackPlugin({
+            filename: 'legit-or-scam/index.php',
+            template: 'src/views/scam.php'
+        }),
+
+
 
         // generate html/php file
         new HtmlWebpackPlugin({
