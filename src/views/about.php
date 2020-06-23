@@ -1,15 +1,16 @@
+
 <!DOCTYPE html><html data-wf-page="5e7e00ae09d0fef1c0b5ac6a" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
   <meta charset="utf-8">
-  <title> About Us | Bitcoin Revolution</title>
+  <title>About Us | Bitcoin Revolution</title>
   <meta property="og:locale" content="en_GB"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="About Us | Bitcoin Revolution"/>
 <meta property="og:description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro."/>
 <meta property="og:url" content="https://bitcoinrevolution.ai/about-us/"/>
 <meta property="og:image" content="./favicon.ico"/>
-<meta property="og:image:width" content="100%"/>
-<meta property="og:image:height" content="Height"/>
-  <link rel = «canonical» href = "https://bitcoinrevolution.ai" />
+<meta property="og:image:width" content="40px"/>
+<meta property="og:image:height" content="40px"/>
+  <link rel="canonical" href = "https://bitcoinrevolution.ai" />
   <meta name="description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro.">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <script>
@@ -38,7 +39,7 @@
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2"> trades </span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
         </div>
         <div class="div-block-5 lang-box">
@@ -48,10 +49,10 @@
               <div class="icon w-icon-dropdown-toggle"></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-              <div class="div-block-32"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-              <div class="div-block-32"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
-             </nav>
+            <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="../assets/de.png" alt class="image-11">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      
+            </nav>
           </div>
         </div>
       </div>
@@ -66,7 +67,7 @@
   <div class="sign-up">
     <div class="container">
       <div class="rich-text-block-3 w-richtext">
-        <br>
+        
         <p>Bitcoin Revolution is the brainchild of a talented team of seasoned financial experts and brokers. Together with some of the best software developers in the field, we worked tirelessly to create the world’s most accurate cryptocurrency trading app.</p>
         <p>Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro. We wanted a piece of financial software that catered to the needs of both experienced investors and newbies, allowing them to trade 24 hours per day, 7 days per week, 365 days per year without any breaks or interruptions.</p>
         <p>Together, we envisioned an app that analyzed the market and identified investment opportunities automatically. And when we didn’t find what we wanted on the market, we created our own.
@@ -79,7 +80,7 @@
         </p>
       </div></div>
   </div>
-  <div class="who-we-are">
+  <section class="who-we-are">
     <div class="container">
       <h2 class="heading-13 h1">Our Software</h2>
       <div class="rich-text-block-3 w-richtext">
@@ -98,8 +99,8 @@
         <p>There are no handling fees or hidden taxes perceived on our end. Every single cent you invest is yours, as is the entirety of the profits you make. If we were to use just three simple words to describe Bitcoin Revolution, those would be safe, easy, and cheap.
         </p>
       </div></div>
-  </div>
-  <div class="offer">
+</section>
+  <section class="offer">
     <div class="container">
       <h2 class="heading-13 h2">Our Goals
       </h2>
@@ -107,12 +108,12 @@
       </p>
       <p class="paragraph-34">That being said, it is important to note at this point that our door might be open to welcoming new clients every day, but that won’t always be the case. Laying the truth all the line, there simply isn’t enough Bitcoin in the world for seven billion people, and that is exactly what makes trading it so beautiful.</p>
       <p class="paragraph-34">This is why you need to act fast if you’ve ever shown interest in becoming a seasoned pro on the cryptocurrency exchange market. Remember, you can only achieve true financial freedom when you invest smart, and investing smart nowadays means investing in Bitcoin. So, what are you waiting for? Join Bitcoin Revolution today and live the life you’ve always dreamed of!</p>
-      <a href="" class="button-3 button_color w-button">JOIN THE BITCOIN REVOLUTION NOW</a>
-    <br>
-    <br>
-    <img src="./../assets/about.JPG"  width="80%" alt="">  
+      <a href="../account-login/" class="button-3 button_color w-button mr-50">JOIN THE BITCOIN REVOLUTION NOW</a>
+    
+    
+    <img src="./../assets/about.JPG"  width="80%" id="about-img" alt="" class="mr-50">  
     </div>
-  </div>
+</section>
   <div id="footer" class="footer">
     <div class="container w-container">
       <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar-2 w-nav">
@@ -121,8 +122,8 @@
           <a href="./" class="nav-link-4 w-nav-link">About us</a>
           <a href="../terms-conditions/" class="nav-link-5 w-nav-link">Terms and conditions</a><a href="../privacy-policy" class="nav-link-6 w-nav-link">Privacy Policy</a>
           <a href="../cookie-policy/" class="nav-link-6 w-nav-link">cookie policy</a>
-        <a href="../contact-us/" class="nav-link-6 w-nav-link">contact us</a></nav>
-        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a>
+        <a href="../contact-us/" class="nav-link-6 w-nav-link">contact us</a>
+        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a></nav>
       </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
   </div>
  

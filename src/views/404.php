@@ -30,18 +30,18 @@
     
     <!-- JOIN US SECTION-1 START -->
     <section class="join-us-section join-us-section-1 text-center">
-        <div class="container">
+        <div class="container c404">
             
 
-                <h1 style="font-size: 80px;font-weight: bold;margin-bottom: 30px;">
+                <h1>
                     404
                 </h1>
 
-                <h3 style="font-size: 30px;margin-bottom: 30px;">
+                <h3>
                     Page Not Found
                 </h3>
 
-                <p style="font-size: 21px;line-height: 180%;">
+                <p>
                     Unfortunately, we couldn’t find the page you tried to view.<br />
                     Please <a href="/">Click Here</a> to visit our Home Page.
                 </p>

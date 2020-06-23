@@ -1,19 +1,20 @@
+
 <!DOCTYPE html><html data-wf-page="5e71ba6688922678dda126d4" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
   <meta charset="utf-8">
   <title>The Bitcoin Revolution App ™  Official Website</title>
   <meta name="description" content="Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here.">
 
-<link rel = «canonical» href = "https://bitcoinrevolution.ai" />
+<link rel="canonical" href = "https://bitcoinrevolution.ai" />
 <meta property="og:locale" content="en_GB"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="The Bitcoin Revolution App ™  Official Website"/>
 <meta property="og:description" content=" Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here."/>
 <meta property="og:url" content="https://bitcoinrevolution.ai/"/>
 <meta property="og:image" content="./favicon.ico"/>
-<meta property="og:image:width" content="Width"/>
-<meta property="og:image:height" content="Height"/>
+<meta property="og:image:width" content="40px"/>
+<meta property="og:image:height" content="40px"/>
 
-</head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head>
 
 <script>
 var lang = 'en';
@@ -29,19 +30,26 @@ today = mm + '/' + dd + '/' + yyyy;
   <div class="noscript w-embed w-iframe">
   </div>
   <div class="html-embed-6 w-embed w-script">
-
+  <script>
+  window.funnel = {
+      config: {
+          funnelCode: 'NEW-TH-BTCNRVLTN',
+          lang: 'en-US'
+      }
+  };
+</script>
   </div>
   <section class="warning">
     <div class="div-block">
       <p class="paragraph-9"><strong>Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
     </div>
   </section>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="./assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
-         
+          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
+          <div class="exclusive-flag flag-icon"></div> 
         </div>
         <div class="div-block-5 lang-box">
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
@@ -50,9 +58,9 @@ today = mm + '/' + dd + '/' + yyyy;
               <div class="icon w-icon-dropdown-toggle"></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-              <div class="div-block-32"><img width="20" src="./assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-              <div class="div-block-32"><img width="20" src="./assets/es.png" srcset="./assets/es-p-500.png 500w, ./assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><img width="20" src="./assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="./assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="./assets/es.png" srcset="./assets/es-p-500.png 500w, ./assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="./assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
              </nav>
           </div>
         </div>
@@ -62,21 +70,21 @@ today = mm + '/' + dd + '/' + yyyy;
   <section class="video_form">
     <div class="container">
       <section class="section-2">
-        <h1 class="home-heading">BITCOIN REVOLUTION</h1>
-        <p class="home-subtitle">The Official Bitcoin Revolution app<br></p>
-        <p class="home-subtitle-yellow" style="line-height: 35px;">Welcome Financial Freedom into your life and start trading like a Pro Right Now!</p>
+        <h1 class="home-heading">Bitcoin Revolution</h1>
+        <p class="home-subtitle">The Official Bitcoin Revolution app</p>
+        <p class="home-subtitle-yellow">Welcome Financial Freedom into your life and start trading like a Pro Right Now!</p>
         <div class="columns-10 w-row">
           <div class="column-11 w-col w-col-8 w-col-stack">
             <div class="algo-video-container">
               <div class="video">
-                <div class="html-embed-3 w-embed"><video width="100%" src="./assets/the-bitcoinrevolution_EN_INDEX.mp4"  autoplay="true" controls="true" style="display: block;object-fit: cover;" poster="./assets/poster.png"></video></div>
+                <div class="html-embed-3 w-embed"><video width="100%" src="./assets/the-bitcoinrevolution_EN_INDEX.mp4"   controls="true" poster="./assets/poster.png"></video></div>
               </div>
             </div>
           </div>
           <div class="column-12 w-col w-col-4 w-col-stack">
             <div id="formTop" class="form-container">
               <div class="form-header">
-                <h3 class="form-title-2"><strong class="bold-text-11">Get started<br></strong><span class="text-span-5">right now!</span></h3>
+                <h3 class="form-title-2"><strong class="bold-text-11">Get started</strong><span class="text-span-5">right now!</span></h3>
               </div>
               <div class="form-box w-form">
                 <form id="formTop" name="email-form" data-name="Email Form" class="members-form">
@@ -97,7 +105,7 @@ today = mm + '/' + dd + '/' + yyyy;
                     </div>
                     <div class="form-cell btn-cell">
                       <div class="form-group">
-                        <div class="generate-pass">Generate New<br>password</div>
+                        <div class="generate-pass">Generate Newpassword</div>
                       </div>
                     </div>
                   </div>
@@ -143,14 +151,18 @@ today = mm + '/' + dd + '/' + yyyy;
         </p>
         <p class="paragraph-15">However, traders who choose Bitcoin Revolution can also use the software in manual mode for more customizable experience. Trading parameters such as risk level, investment strategy, and many other aspects can be tailored to suit your financial goals so that you always achieve the desired result. The app can be used directly from our official website on both mobile and desktop devices for added versatility. 
         </p>
-        <p>Bitcoin Revolution is a trading platform designed for investors from all walks of life and of varying experience levels. Our software is the surest way to turn the cryptocurrency market into a lucrative business opportunity.
-        </p>
-        <p>Below are some key aspects you should know:
-        </p>
       </div>
+      
       <div id="w-node-a251ae4b2085-dda126d4" class="div-block-15"><img src="./assets/bitcoin-revolution-trader.jpg" alt="Bitcoin Revolution Trader" class="image-4"></div>
     </div>
   </section>
+  <section class="container svs1">
+    <p>Bitcoin Revolution is a trading platform designed for investors from all walks of life and of varying experience levels. Our software is the surest way to turn the cryptocurrency market into a lucrative business opportunity.
+        </p>
+        <p>Below are some key aspects you should know:
+        </p>
+        </div>
+    </section>
   <section class="skills">
     <div class="container-2 c2">
       <div class="boxes">
@@ -175,7 +187,7 @@ today = mm + '/' + dd + '/' + yyyy;
       <p class="paragraph-16">Bitcoin Revolution is a trading platform designed for investors from all walks of life and of varying experience levels. Our software is the surest way to turn the cryptocurrency market into a lucrative business opportunity. With its help, you are one step away from securing a source of income that will allow you to lead the affluent lifestyle you’ve always dreamed of.</p>
     </div>
   </section>
-  <div class="software">
+  <section class="software">
     <div class="container">
       <h2 class="heading-6">Bitcoin Revolution Software</h2>
       <div class="div-block-17">
@@ -196,7 +208,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
       </div>
     </div>
-  </div>
+</section>
   <div class="requirement">
     <div class="container">
       <h3>What are Cryptocurrencies?</h3>
@@ -205,13 +217,13 @@ today = mm + '/' + dd + '/' + yyyy;
       <p class="paragraph-15">Bitcoin Revolution is the main cryptographic money platform, which lets its clients trade physically or utilize the algorithm characteristics. This enables anybody to market and benefit, regardless of whether one understands the platform or not. The explanation why Bitcoin Revolution is simple to use and benefit from, it's because it operates by easily set rules. They can be manipulated at any moment in accordance to the merchant's wants, level of understanding and risk seeking level.</p>
       <p class="paragraph-15">Making a profit with Bitcoin trading functions the same as trading euros or dollars. You buy the crypto when its price is low and sell it when it goes up. Bitcoin (BTC) is the most famous cryptocurrency on the market, but other popular examples you can trade right here on the Bitcoin Revolution software include Ethereum (ETH), Litecoin (LTC), Dash (DASH), and Monero (XMR).</p>
       </div>
-  <section class="skills steps" style="margin-top: 50px;">
+  <section class="skills steps mr-50">
     <h2 class="heading-8">How to Operate Bitcoin Revolution</h2>
     <div class="skill-wrap">
       <div class="container-2 c2 c3">
         <div class="boxes b1">
           <div class="div-block-16 d16"><img src="./assets/step1.png" alt class="image-10">
-            <h3 class="step-title">STEP ONE:</h3>
+            <h3 class="step-title">Step one:</h3>
           </div>
           <div class="text-block t1">Register an Account</div>
           <div class="text-block-2">Head on over to our homepage’s Sign Up section, fill in the required details, and submit your registration request. The process takes less than one minute on your end, and you will become a member as soon as our team reviews and accepts your application. Once this happens, you will have access to our proprietary Bitcoin trading platform for free.
@@ -219,7 +231,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="boxes b1">
           <div class="div-block-16 d16"><img src="./assets/step2.png" alt class="image-10">
-            <h3 class="step-title">STEP TWO:</h3>
+            <h3 class="step-title">Step two:</h3>
           </div>
           <div class="text-block t1">Fund Your Account</div>
           <div class="text-block-2">Trading Bitcoin online requires an initial investment just as any other business would. Fund your account with as little as $250 to begin with and you’ll make money with Bitcoin Revolution in no time. 
@@ -227,7 +239,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="boxes b1">
           <div class="div-block-16 d16"><img src="./assets/step3.png" alt class="image-10">
-            <h3 class="step-title">STEP THREE</h3>
+            <h3 class="step-title">Step three</h3>
           </div>
           <div class="text-block t1">Trade Like a Pro</div>
           <div class="text-block-2">Now that your account is funded, you are ready to go. Simply click ‘Trade’ and watch Bitcoin Revolution’s certified algorithm work its magic for you. You can always set the app to manual trading instead of automatic if you want more control over the operations. </div>
@@ -236,119 +248,7 @@ today = mm + '/' + dd + '/' + yyyy;
     </div>
     <div class="container"></div>
   </section>
-  <!-- <div class="software sf">
-    <div class="container">
-      <div class="columns-11 w-row">
-        <div class="column-15 w-col w-col-7 w-col-stack">
-          <div class="rich-text-block-8 w-richtext">
-            <h2>How to Withdraw Profits</h2>
-            <p>We comprehend that a significant part of trading is getting to surf and simply access your benefits. It is consequently, at Bitcoin Revolution, that we offer a free and easy withdrawal process.</p>
-            <p>When you are prepared to pull back your cash, you ought to finish a withdrawal structure. Likewise, you will need to finish a personal check procedure to guarantee that the assets are being withdrawn to the legitimate exchange account owner.</p>
-            <p>These are administrative necessities and should be clung to in order to guarantee the security of your assets and exchanging procedure. Your broker will help you with the withdrawal procedure and he or she will guarantee that your assets are credited to you within 48 hours. Remember that we don't charge any expenses or commission and your benefits are 100 percent yours and will be withdrawn in full.</p>
-          </div>
-        </div>
-        <div class="column-14 w-col w-col-5 w-col-stack"><img src="./assets/phone1.png" alt class="image-4"></div>
-      </div>
-      <div class="columns-11-2 w-row">
-        <div class="column-14 w-col w-col-5 w-col-stack"><img src="./assets/phone2.png" alt class="image-4"></div>
-        <div class="column-15 w-col w-col-7 w-col-stack">
-          <div class="rich-text-block-8 w-richtext">
-            <h2>Bitcoin Revolution is not a Scam</h2>
-            <p>Bitcoin Revolution is neither a fraud nor a trick.</p>
-            <p>Clearly, you may have questions, and this is not a bad thing, because in case you end up settling on it, it would be an informed decision.</p>
-            <p>Bitcoin Revolution is a 100% dependable, <a href="?lp=1">checked and confirmed</a>, robotized digital money trading software. It is a victor for both prepared and unpracticed dealers.</p>
-            <p>Bitcoin Revolution application permits you to set your inclinations and perform automatic trades. This is done by utilizing the advanced algorithm, which limits your need for past market information and commonality.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="requirement r1">
-    <div class="container">
-      <h2 class="heading-7">Main Pros of Bitcoin Revolution</h2>
-      <p class="paragraph-17-copy">Bitcoin Revolution exchanging platform has interesting features that makes it stand-out significantly over other digital cryptocurrency platforms. Below are the advantages of Bitcoin:</p>
-      <div class="proslist">
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">1</p>
-            <p class="paragraph-22">Free Software:</p>
-          </div>
-          <p class="paragraph-23">The Bitcoin Revolution is absolutely free. No expenses are required for download, no charges for use or dealing with expenses on withdrawals. Any subsidizes you store and benefits you make, are 100% yours</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">2</p>
-            <p class="paragraph-22">No Download:</p>
-          </div>
-          <p class="paragraph-23">Bitcoin Revolution is an online platform, implying that, in contrast to others, no program installation is required. Therefore, it does not require any updates to be downloaded. It tends to be gotten from any work area, PC, cushions or cell phones, from anyplace at any time. All you need is an internet access</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">3</p>
-            <p class="paragraph-22">Simple Setup:</p>
-          </div>
-          <p class="paragraph-23">The sign up process is quick, straightforward, safe and secure. The Bitcoin Revolution platform has an easy to use interface to enable ease in control and movement around it</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">4</p>
-            <p class="paragraph-22">Speedy Verification:</p>
-          </div>
-          <p class="paragraph-23">The obligatory check process has been rearranged, so it is fast and simple. It just requires the payment subtleties and client data, and doesn't include filling long structures or hold up times</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">5</p>
-            <p class="paragraph-22">Demo Account:</p>
-          </div>
-          <p class="paragraph-23">Bitcoin Revolution permits you to test your abilities and settings utilizing inherent demo account features. You can utilize the demo platform for as long as you want before you put your money and start the real exchange</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">6</p>
-            <p class="paragraph-22">Low Investment:</p>
-          </div>
-          <p class="paragraph-23">Dealers can begin with a base store of $250m and exchanges can be entered with as low as $25</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">7</p>
-            <p class="paragraph-22">Numerous Currencies:</p>
-          </div>
-          <p class="paragraph-23">You can exchange in many digital hard currencies on Bitcoin Revolution site: Dash, Bitcoin, Bitcoin Cash, Litecoin, Ripple, Ethereum, and Monero. Likewise, you can conduct your trade activities in hard currencies, for example, USD, EUR, and CHF (Swiss Franc)</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">8</p>
-            <p class="paragraph-22">Consistent Earnings:</p>
-          </div>
-          <p class="paragraph-23">Bitcoin Revolution holds the probability of predictable income for any level merchant, experienced or beginner. However, any marketing conveys some risks and there will never be an assurance of benefit. For Bitcoin Revolution the odds are mostly elevated and the dangers are negligible, as long as you utilize the tools given to you</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">9</p>
-            <p class="paragraph-22">Achievement Rate:</p>
-          </div>
-          <p class="paragraph-23">Bitcoin Revolution boasts the highest achievement rate in the market, which is currently expressed as attaining 99.4 percent. This is the reason it is viewed as the most reliable and highly credible</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">10</p>
-            <p class="paragraph-22">Simple Withdrawals:</p>
-          </div>
-          <p class="paragraph-23">You can deposit money Bitcoin Revolution platform through any prominent credit or debit card, (for example, Visa, MasterCard, Discovery, Express) or Neteller. Moreover, withdrawals are simple and quick too, and the cash is gotten within 24 hours of presenting the withdrawal demand. And, no expenses are deducted</p>
-        </div>
-        <div class="prosblock">
-          <div class="div-block-19">
-            <p class="paragraph-21">11</p>
-            <p class="paragraph-22">Client Assistance:</p>
-          </div>
-          <p class="paragraph-23">Bitcoin Revolution software clients are able to enjoy a broad customer service system. The agents help you with any trouble you may experience and answer any inquiry you may have every minute of every day</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <div class="requirement r1 r2">
+  <section class="requirement r1 r2">
     <div class="container">
       <h2 class="heading-7">Bitcoin Revolution Main Advantages</h2>
       <p class="paragraph-17-copy">Bitcoin Revolution is widely recognized and highly regarded. It is the main digital money exchange platform due to its numerous pros mentioned above, and other key features mentioned below:</p>
@@ -445,7 +345,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <div class="requirement r1 r3"><img src="./assets/btc.png" alt class="image-6">
     <div class="container c3">
       <h2 class="heading-7 h7">Live Results</h2>
@@ -605,7 +505,7 @@ today = mm + '/' + dd + '/' + yyyy;
 </h3>
       <section id="clinets">
         <div class="some-client">
-         <div class="cl-photo" style="background: url(./assets/testimonial4.jpg)">  </div>
+         <div class="cl-photo" style="background: url(./assets/laura.jpg)">  </div>
           <h3>Laura V. - Baton Rouge, LA
           </h3>
           <p class="profit">Profit: $11,453</p>
@@ -613,7 +513,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </p>
         </div>
         <div class="some-client">
-         <div class="cl-photo" style="background: url(./assets/testimonial1.jpg);"></div>
+         <div class="cl-photo" style="background: url(./assets/raquel.jpg);"></div>
           <h3>Raquel C. - San Luis Obispo, CA
           </h3>
           <p class="profit">Profit: $9,328</p>
@@ -621,7 +521,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </p>
         </div>
         <div class="some-client">
-         <div class="cl-photo" style="background: url(./assets/testimonial2.jpg)" ></div>
+         <div class="cl-photo" style="background: url(./assets/stephanie.jpg)" ></div>
           <h3>Stephanie J. - Lexington, MA
           </h3>
           <p class="profit">Profit: $8,266
@@ -630,7 +530,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </p>
         </div>
         <div class="some-client">
-         <div class="cl-photo"  style="background: url(./assets/testimonial3.jpg)"> </div>
+         <div class="cl-photo"  style="background: url(./assets/paul.jpg)"> </div>
           <h3>Paul B. - Fort Lauderdale, FL</h3>
           <p class="profit">Profit: $12,307
           </p>
@@ -638,7 +538,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </p>
         </div>
         <div class="some-client">
-         <div class="cl-photo"  style="background: url(./assets/ewq.jpg)"></div>
+         <div class="cl-photo"  style="background: url(./assets/andrew.jpg)"></div>
           <h3>Andrew M. - Richmond, RI 
           </h3>
           <p class="profit">Profit: $10,003
@@ -647,7 +547,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </p>
         </div>
         <div class="some-client">
-         <div class="cl-photo" style="background: url(./assets/qwe.jpg)"> <img src="" alt=""> </div>
+         <div class="cl-photo" style="background: url(./assets/mark.jpg)"> <img src="" alt=""> </div>
           <h3>Mark G. - Buffalo, NY
           </h3>
           <p class="profit">Profit: $7,746</p>
@@ -656,21 +556,23 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
 
       </section>
-      <br>
+      
    
     </div>
   </div>
   <section class="register-now" style="background:url(./assets/bg5.jpg);">
-    <h2>REGISTER NOW! </h2>
-    <h3>SET SAIL FOR A SEA OF ENDLESS CRYPTO-PROFIT POSSIBILITIES WITH THE BITCOIN REVOLUTION SOFTWARE
+    <h2 class="register-now-title">Register now! </h2>
+    <h3 class="register-now-title">Set sail for a sea of endless crypto-profit possibilities with the bitcoin revolution software
     </h3>
-    <br>
+
+    
     <p>Think of Bitcoin Revolution as the VIP club of cryptocurrency traders that welcomes both newbies and seasoned investors with open arms. The proprietary software behind the app can be found right here on our official website. Its innovative algorithm can allow you to make a profit automatically, or by manually setting a few parameters to tailor your experience even further. 
     </p>
     <p>Our members have already amassed impressive fortunes in the wake of Bitcoin’s acceptance into the mainstream, so what are you waiting for? Become a member of the Bitcoin Revolution family today and enjoy the freedom of trading cryptos for a profit anywhere and anytime you like!
     </p>
+    <a href="#header" class="button-3 button_color w-button upper-case">Start tranding now</a> 
   </section>
-  <div id="footer" class="footer">
+  <footer id="footer" class="footer">
     <div class="container w-container">
       <div data-collapse="none" data-animation="default" data-duration="400" role="banner" class="navbar-2 w-nav">
         <nav role="navigation" class="nav-menu-2 w-nav-menu">
@@ -678,12 +580,10 @@ today = mm + '/' + dd + '/' + yyyy;
           <a href="./about-us/" class="nav-link-4 w-nav-link">About us</a>
           <a href="./terms-conditions/" class="nav-link-5 w-nav-link">Terms and conditions</a><a href="../privacy-policy" class="nav-link-6 w-nav-link">Privacy Policy</a>
           <a href="./cookie-policy/" class="nav-link-6 w-nav-link">cookie policy</a>
-        <a href="./contact-us/" class="nav-link-6 w-nav-link">contact us</a></nav>
-        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a>
+        <a href="./contact-us/" class="nav-link-6 w-nav-link">contact us</a>
+        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a></nav>
        </div><a href="./" aria-current="page" class="w-inline-block w--current"><img src="./assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
-  </div>
-</body>
-
+</footer>
 <script type="application/ld+json">
 {
 "@context": "https://bitcoinrevolution.ai",
@@ -770,6 +670,14 @@ As for the time spent doing so, you won’t have to dedicate more than a few min
 }]
 }
 </script>
+<script>
+function getLang() { 
+    $('#aas').slideDown('slow')
+  }
+</script>
+
+</html>
+
 
 <script>
   window.setFlagIcon = function (countryCode){
@@ -785,7 +693,8 @@ As for the time spent doing so, you won’t have to dedicate more than a few min
 </script>
 
 <script>
-  
+
+function asd() { 
 (function($){
   let accordion = $('.accordion-item');
   let contentClass = '.dropdown-list-2';
@@ -821,10 +730,7 @@ As for the time spent doing so, you won’t have to dedicate more than a few min
       });
   }
 })(jQuery);
+}
 
-function getLang() { 
-    $('#aas').slideDown('slow')
-  }
+setTimeout(asd , 4000);
 </script>
-
-</html>

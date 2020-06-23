@@ -128,6 +128,12 @@ module.exports = {
             inject: false // don't inject any js files
         }),
 
+        // new HtmlWebpackPlugin({
+        //     filename: 'helpers/http_rewriter.php',
+        //     template: 'src/views/helpers/http_rewriter.php',
+        //     inject: false // don't inject any js files
+        // }),
+
 
         // 
         new HtmlWebpackPlugin({

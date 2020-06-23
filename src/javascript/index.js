@@ -1,6 +1,6 @@
 import "../styles/sass/styles.scss";
 import "../styles/sass/build.scss"; // optional if you need to include the old build.scss
-var lang = 'en';
+
 ! function() {
     "use strict";
 

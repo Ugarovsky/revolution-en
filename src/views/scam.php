@@ -1,7 +1,17 @@
+
 <!DOCTYPE html><html lang="en-US"><head>
   <meta charset="utf-8">
   <title>Is Bitcoin Revolution Legit or Scam | Bitcoin Revolution
   </title>
+  <script>
+var lang = 'en';
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+</script>
  </head>
 <body class="body-5">
   <div class="noscript w-embed w-iframe">
@@ -17,7 +27,7 @@
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
         </div>
         <div class="div-block-5 lang-box">
@@ -27,10 +37,9 @@
               <div class="icon w-icon-dropdown-toggle"></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-              <div class="div-block-32"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-              <div class="div-block-32"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
-             </nav>
+            <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
           </div>
         </div>
       </div>
@@ -44,14 +53,14 @@
           <div class="column-11 w-col w-col-8 w-col-stack">
           <div class="algo-video-container">
               <div class="video">
-                <div class="html-embed-3 w-embed"><video width="100%" src="../assets/the-bitcoinrevolution_EN_INDEX.mp4" loop="true" autoplay controls="true" style="display: block;object-fit: cover;" poster="../assets/poster.png"></video></div>
+                <div class="html-embed-3 w-embed"><video width="100%" src="../assets/the-bitcoinrevolution_EN_INDEX.mp4"  controls="true" poster="../assets/poster.png"></video></div>
               </div>
             </div>
           </div>
           <div id="formTop" class="column-12 w-col w-col-4 w-col-stack">
             <div id="formTop" class="form-container">
               <div class="form-header">
-                <h3 class="form-title scam-form-title"><strong class="bold-text-11">CHANGE YOUR<br></strong><span class="text-span-5">LIFE TODAY!</span></h3>
+                <h3 class="form-title scam-form-title"><strong class="bold-text-11">CHANGE YOUR</strong><span class="text-span-5">LIFE TODAY!</span></h3>
               </div>
               <div class="form-box scam-form w-form">
                 <form id="formTop" name="email-form" data-name="Email Form" class="members-form scam-members">
@@ -72,7 +81,7 @@
                     </div>
                     <div class="form-cell">
                       <div class="form-group">
-                        <div class="generate-pass scam-control">Generate New<br>password</div>
+                        <div class="generate-pass scam-control">Generate Newpassword</div>
                       </div>
                     </div>
                   </div>
@@ -168,19 +177,19 @@
       <div class="container">
         <h2 class="steps-main-title">Follow the steps below to start trading with the best crypto software in the world:</h2>
         <div class="single-step w-clearfix"><img src="../assets/step1_1.png" alt class="step-img-right">
-          <h3 class="step-subtitle"><span class="violet">FIRST – REGISTER</span><br>Sign up to Join Bitcoin Revolution</h3>
+          <h3 class="step-subtitle"><span class="violet">FIRST – REGISTER</span>Sign up to Join Bitcoin Revolution</h3>
           <p class="step-desc">Go to the Bitcoin Revolution homepage and fill out your registration details on the sign-up section. The details required are first name, last name, email address and phone number. You will also be prompted to create a unique password to secure your Bitcoin Revolution account.</p>
           <p class="step-desc">Submit your sign-up form and wait for approval. After approval, you will be given a choice of reputable global brokerage firms that support the Bitcoin Revolution software.</p>
           <p class="step-desc">Open a trading account with them to start trading with the Bitcoin Revolution. It is however important to first try out the software on a demo account before letting it run on real money. A demo account will also help you to understand all the platform idiosyncrasies of your preferred broker.</p>
         </div>
         <div class="single-step w-clearfix"><img src="../assets/step2_1.png" alt class="step-img-right">
-          <h3 class="step-subtitle"><span class="violet">SECOND – DEMO ACCOUNT<br>‍</span>Trade on a Demo Account</h3>
+          <h3 class="step-subtitle"><span class="violet">SECOND – DEMO ACCOUNT‍</span>Trade on a Demo Account</h3>
           <p class="step-desc">All Bitcoin Revolution investor members can utilise the free and unlimited demo account provided by all partner brokers. Start trading with Bitcoin Revolution on a demo account funded with $1,500. The funds are virtual, but the price action mirrors the real markets.</p>
           <p class="step-desc">Trading on a demo account will provide a clear picture of the risks and profits that Bitcoin Revolution investors are exposed to.</p>
           <p class="step-desc">Investors can also try out different strategies and get to learn how to navigate their broker’s trading platform.</p>
         </div>
         <div class="single-step w-clearfix"><img src="../assets/step3_1.png" alt class="step-img-right">
-          <h3 class="step-subtitle"><span class="violet">THIRD – TRADE LIVE<br>‍</span>Trade on a Real Account for Real Money</h3>
+          <h3 class="step-subtitle"><span class="violet">THIRD – TRADE LIVE‍</span>Trade on a Real Account for Real Money</h3>
           <p class="step-desc">After a good performance on a demo account, it may be time to transition to a live account. You will now be trading on a real account, with real money, for real profits. Navigate to your Trading Room to select your trading strategy as well as the manner that trading signals will be executed on your account.</p>
           <p class="step-desc">On your Real Account page, you will view some content as follows:</p>
           <div class="steps-list-wrap">
@@ -224,8 +233,8 @@
           <p class="step-desc">**Bitcoin Revolution investors can earn profits out of the price action of numerous tradable assets that include Bitcoin, Ethereum, Monero and Dash. There are also innovative and lucrative crypto/crypto pairs as well as crypto/fiat pairs. Investors can also trade Forex pairs such as EURUSD and USDJPY. Simply set your trade parameters (or use the default settings), click the “Auto Trade” button, and then sit back and watch Bitcoin Revolution practically print money for you.</p>
         </div>
         <div class="single-step w-clearfix"><img src="../assets/step4.png" alt class="step-img-right">
-          <h3 class="step-subtitle"><span class="violet">FOURTH – DEPOSIT & TRADE<br>‍</span>Fund your Account and Start Trading</h3>
-          <p class="step-desc">After opening your Bitcoin Revolution account, you will also be required to open a trading account with your preferred brokerage account. You can start trading with the software after making a minimum deposit $250. The deposit serves as your starting capital and you can withdraw it (and your profits as well) anytime you desire.<br>Bitcoin Revolution is free of charge, with no hidden charges or commissions applied to your profits!</p>
+          <h3 class="step-subtitle"><span class="violet">FOURTH – DEPOSIT & TRADE‍</span>Fund your Account and Start Trading</h3>
+          <p class="step-desc">After opening your Bitcoin Revolution account, you will also be required to open a trading account with your preferred brokerage account. You can start trading with the software after making a minimum deposit $250. The deposit serves as your starting capital and you can withdraw it (and your profits as well) anytime you desire.Bitcoin Revolution is free of charge, with no hidden charges or commissions applied to your profits!</p>
           <p class="step-desc">You have full control over your profits and can decide whether to make withdrawals or compound your capital.</p>
           <p class="step-desc">You can start trading immediately once you make a successful deposit. Bitcoin Revolution brokerage partners support safe, secure, and convenient payment methods such as major Debit/Credit cards, popular eWallets and bank wire. They will also provide you with access to effective trading tools and features as well as professional customer service and support.</p>
         </div><a href="#formTop" class="btn-blue mt-20 w-button">START TRADING NOW</a></div>
@@ -234,7 +243,7 @@
       <div class="container w-clearfix"><img src="../assets/phone.png" srcset="../assets/phone-p-500.png 500w, ../assets/phone.png 581w" sizes="(max-width: 479px) 94vw, (max-width: 611px) 95vw, 581px" alt class="money-img">
         <h2 class="money-main-title">Make Money with Bitcoin Revolution</h2>
         <p class="money-ph-left">Bitcoin Revolution is an automated crypto trading software that gives every type of investor a real chance to make real money out of the cryptocurrency market. Investors start with as low as $250 and earn average profits of at least $1000 daily.</p>
-        <p class="money-ph-left">There is no doubt that Bitcoin Revolution is the most popular, automated crypto trading software in the world based on multiple reviews available online and numerous testimonials from real users.<br>Investors enjoy the rare opportunity to earn passive income out of the lucrative cryptocurrency market. Many users simply take less than 20 minutes to set their preferred trading parameters before activating the Bitcoin Revolution to generate profits round the clock.</p>
+        <p class="money-ph-left">There is no doubt that Bitcoin Revolution is the most popular, automated crypto trading software in the world based on multiple reviews available online and numerous testimonials from real users.Investors enjoy the rare opportunity to earn passive income out of the lucrative cryptocurrency market. Many users simply take less than 20 minutes to set their preferred trading parameters before activating the Bitcoin Revolution to generate profits round the clock.</p>
         <h2 class="money-main-title">Final Word</h2>
         <p class="money-ph-left">Bitcoin Revolution is comprehensive trading software, with handy features and powerful technologies that ensure investors get maximum exposure to the lucrative trading opportunities in the market.</p>
         <p class="money-ph-left">The software trades the crypto market with a near-perfect success rate, allowing practically any type of investor to make massive profits in a passive manner. You can take the chance to change your life with the best crypto trading software in the world.</p>
@@ -250,7 +259,7 @@
         <p class="scam-ph">It is an automated cryptocurrency trading software that was developed and launched in 2017. The software applies multiple advanced trading strategies to trade cryptocurrencies with amazing accuracy levels.</p>
         <p class="scam-ph">Using top technologies as well, the Bitcoin Revolution is able to stay ahead of the markets by 0.01 seconds, thereby guaranteeing maximum profits for investors. We review below whether the software lives up to its hype or it is simply just another scam!</p>
         <h3 class="scam-subtitle">Bitcoin Revolution: Legit or Scam?</h3>
-        <p class="scam-ph">Automated trading software enhances trading activity compared to manual strategies. Such software eliminates subjective human emotions out of the trading decision-making loop and ensures that a strategy is implemented at its optimal best in the market. Still, there are always some doubts about the authenticity of software that posts high success rates, such as the Bitcoin Revolution.<br>There are numerous positive reviews of the software online, most of them from trusted and verifiable users. But some critics have also raised some concerns such as the reason why the identities of founders are not revealed as well as the underlying strategies the software trades with. Nonetheless, it is understandable why the founders would want to protect their identities in this open, digital world; and it is not uncommon for most automated software developers to develop black-box strategies.</p>
+        <p class="scam-ph">Automated trading software enhances trading activity compared to manual strategies. Such software eliminates subjective human emotions out of the trading decision-making loop and ensures that a strategy is implemented at its optimal best in the market. Still, there are always some doubts about the authenticity of software that posts high success rates, such as the Bitcoin Revolution.There are numerous positive reviews of the software online, most of them from trusted and verifiable users. But some critics have also raised some concerns such as the reason why the identities of founders are not revealed as well as the underlying strategies the software trades with. Nonetheless, it is understandable why the founders would want to protect their identities in this open, digital world; and it is not uncommon for most automated software developers to develop black-box strategies.</p>
         <p class="scam-ph">Yet, the founders have also let out the reason why the Bitcoin Revolution manages to trade with high accuracy levels. The time leap feature allows the software to stay ahead of the markets by 0.01 seconds, while VPN functionality guarantees the best execution at all times.</p>
         <p class="scam-ph">With numerous unethical persons around, it is important to take due care when choosing an automated trading software. But in every aspect, the Bitcoin Revolution has performed admirably when subjected to our Scam Test. Numerous investors who started out with just $250, are now making daily profits of at least $1,000 and withdrawing any time they wish to.</p><a href="#formTop" class="btn-blue mt-20 w-button">START TRADING NOW</a></div>
     </div>
@@ -262,19 +271,19 @@
         <div class="reviews-list-wrap w-row">
           <div class="reviews-list w-col w-col-4">
             <div class="reviews-wrap"><img src="../assets/quotes_up.png" alt class="quotes-up"><img src="../assets/quotes_down.png" alt class="quotes-down">
-              <h3 class="reviews-list-title">Dragons’ Den<br>‍</h3>
+              <h3 class="reviews-list-title">Dragons’ Den‍</h3>
               <p class="reviews-desc text-last-center">Dragons’ Den is a popular British TV show that gives entrepreneurs an opportunity to pitch their ideas to 5 multimillionaire investors. Where do the investors get their unlimited funds? With the big profits that the Bitcoin Revolution generates, this makes some people imagine that it is the Bitcoin Revolution that is funding the investors.</p>
             </div>
           </div>
           <div class="reviews-list w-col w-col-4">
             <div class="reviews-wrap"><img src="../assets/quotes_up.png" alt class="quotes-up"><img src="../assets/quotes_down.png" alt class="quotes-down">
-              <h3 class="reviews-list-title">Shark Tank<br>‍</h3>
+              <h3 class="reviews-list-title">Shark Tank‍</h3>
               <p class="reviews-desc text-last-center">Shark Tank is an American business hit show that follows the format of Dragons’ Den. Bitcoin Revolution has seen its name linked with some Shark Tank investors but there is yet to be any tangible evidence to support the claims.</p>
             </div>
           </div>
           <div class="reviews-list last w-col w-col-4">
             <div class="reviews-wrap"><img src="../assets/quotes_up.png" alt class="quotes-up"><img src="../assets/quotes_down.png" alt class="quotes-down">
-              <h3 class="reviews-list-title">This Morning <br>(British TV Programme)</h3>
+              <h3 class="reviews-list-title">This Morning (British TV Programme)</h3>
               <p class="reviews-desc text-last-center">This Morning is a popular British TV programme that discusses a wide range of topical issues and features celebrities of all walks of life. Some celebrities who have featured on the show have been rumoured to belong to the Bitcoin Revolution family, but there have been no mentions on the show.</p>
             </div>
           </div>
@@ -295,29 +304,29 @@
         <div class="works-step">
           <div class="works-header-wrap">
             <div class="works-img-wrap"><img src="../assets/step_sm1.png" alt></div>
-            <h3 class="works-subtitle"><span class="text-span-7">Step 1<br></span>Sign Up on Bitcoin Revolution</h3>
+            <h3 class="works-subtitle"><span class="text-span-7">Step 1</span>Sign Up on Bitcoin Revolution</h3>
           </div>
           <p class="works-desc"><a href="?lp=1">Sign up to join the Bitcoin Revolution</a> family by filling out the registration form available on the website homepage. The details required are only your first and second names, email address and phone number. You will receive a confirmation email to activate your account if your application is approved. You will also be given a recommended list of brokers who have partnered with the Bitcoin Revolution.</p>
         </div>
         <div class="works-step">
           <div class="works-header-wrap">
             <div class="works-img-wrap"><img src="../assets/step_sm4.png" alt></div>
-            <h3 class="works-subtitle"><span class="text-span-7">Step 2<br></span>Demo Trade</h3>
+            <h3 class="works-subtitle"><span class="text-span-7">Step 2</span>Demo Trade</h3>
           </div>
           <p class="works-desc">Every new Bitcoin Revolution investor can start to make demo trades with an account funded with $1,500 in virtual money. It is important to take advantage of this so as to learn and try out the different features of the software. Trading on a demo account serves as a perfect practice arena for any investor before transitioning to a real account.</p>
         </div>
         <div class="works-step">
           <div class="works-header-wrap">
             <div class="works-img-wrap"><img src="../assets/step_sm1.png" alt></div>
-            <h3 class="works-subtitle"><span class="text-span-7">Step 3<br></span>Open a Live Account</h3>
+            <h3 class="works-subtitle"><span class="text-span-7">Step 3</span>Open a Live Account</h3>
           </div>
           <p class="works-desc">After practising on a demo account, it is now time to transition to live trading so as to start making real money. Your live account trading panel is detailed to allow you to monitor all your trading activities with ease and convenience. There is an Account section where you can set different parameters and perform account settings, such as changing leverage, resetting the password, uploading your documents and activating VPS services.</p>
-          <p class="works-desc">On the Deposit and Withdrawals page you can check out your deposit history, pending withdrawals, completed withdrawals and your open positions. There is also the Research and Education section where traders can view additional trade ideas, trading tools and educational resources. <br>There is also the section to switch between live and demo trading modes. Click ‘Demo Trade’ to trade with virtual funds for virtual profits or click ‘Go Live’ when you want to trade with real money for real profits.</p>
+          <p class="works-desc">On the Deposit and Withdrawals page you can check out your deposit history, pending withdrawals, completed withdrawals and your open positions. There is also the Research and Education section where traders can view additional trade ideas, trading tools and educational resources. There is also the section to switch between live and demo trading modes. Click ‘Demo Trade’ to trade with virtual funds for virtual profits or click ‘Go Live’ when you want to trade with real money for real profits.</p>
         </div>
         <div class="works-step">
           <div class="works-header-wrap">
             <div class="works-img-wrap"><img src="../assets/step_sm4.png" alt></div>
-            <h3 class="works-subtitle"><span class="text-span-7">Step 4<br></span>Deposit and Earn Profits</h3>
+            <h3 class="works-subtitle"><span class="text-span-7">Step 4</span>Deposit and Earn Profits</h3>
           </div>
           <p class="works-desc">After opening a live trading account, you just need to fund it and start trading for real profits. All Bitcoin Revolution partner brokers operate efficient payment systems and allow investors to make deposits or withdrawals using safe and convenient payment methods, such as major Debit/Credit Cards, secure Bank Wire and popular eWallets. You can start earning profits as soon as you make a successful deposit.</p>
         </div>

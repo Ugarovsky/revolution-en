@@ -1,4 +1,5 @@
 <?php include('../helpers/country_info.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +46,7 @@ include('../helpers/gtm_no_script.php');
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
         </div>
         <div class="div-block-5 lang-box">
@@ -55,12 +56,11 @@ include('../helpers/gtm_no_script.php');
               <div class="icon w-icon-dropdown-toggle"></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-              <div class="div-block-32"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-              <div class="div-block-32"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
-             </nav>
+            <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
           </div>
-        </div>
+               </div>
       </div>
     </div>
   </header>
@@ -72,7 +72,7 @@ include('../helpers/gtm_no_script.php');
   </div>
 
 
-<div class="container terms" style="text-align:left; padding:35px 15px">
+<div class="container terms">
     <h1 class="bold text-center big-font contact-us-header">The Software Privacy Policy</h1>
     <p>By clicking on "Continue", you are giving us permission to send you emails about our offers. If you chose not to
         receive any more emails, you can always opt out at any time at the bottom of each email.</p>
@@ -198,8 +198,8 @@ include('../helpers/gtm_no_script.php');
           <a href="../" class="nav-link-4 w-nav-link">About us</a>
           <a href="../terms-conditions/" class="nav-link-5 w-nav-link">Terms and conditions</a><a href="./" class="nav-link-6 w-nav-link">Privacy Policy</a>
     <a href="../cookie-policy/" class="nav-link-6 w-nav-link">cookie policy</a>
-        <a href="../contact-us/" class="nav-link-6 w-nav-link">contact us</a></nav>
-        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a>
+        <a href="../contact-us/" class="nav-link-6 w-nav-link">contact us</a>
+        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a></nav>
       </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
   </div>
 </body>

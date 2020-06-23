@@ -1,11 +1,12 @@
 <?php include('../helpers/country_info.php'); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Terms</title>
+    <title>The Bitcoin Revolution App ™ | Terms</title>
     <link rel="shortcut icon" href="/favicon.ico">
     <script>
     var lang = 'en';
@@ -32,38 +33,37 @@ include('../helpers/gtm_no_script.php');
    </div>
  </section>
  <header class="header">
-   <div class="container w-container">
-     <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
-       <div class="exclusive-offer">
-         <div class="exclusive-text"><span>EXCLUSIVE OFFER FOR</span><br><span class="text-span exc-2">TRADERS</span> <span class="text-span-6">IN</span> <span class="country-name">YOUR COUNTRY</span></div>
-        
-       </div>
-       <div class="div-block-5 lang-box">
-         <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
-           <div class="dropdown-toggle w-dropdown-toggle"><img src="../assets/us.png" width="21" height="16" alt="en" srcset="../assets/us-p-500.png 500w, ../assets/us.png 640w" sizes="20px" class="image-3">
-             <div class="text-block-5">En</div>
-             <div class="icon w-icon-dropdown-toggle"></div>
-           </div>
-           <nav class="dropdown-list w-dropdown-list">
-             <div class="div-block-32"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-             <div class="div-block-32"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-             <div class="div-block-32"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
-            </nav>
-         </div>
-       </div>
-     </div>
-   </div>
- </header>
+    <div class="container w-container">
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+        <div class="exclusive-offer">
+          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
+         
+        </div>
+        <div class="div-block-5 lang-box">
+          <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
+            <div class="dropdown-toggle w-dropdown-toggle"><img src="../assets/us.png" width="21" height="16" alt="en" srcset="../assets/us-p-500.png 500w, ../assets/us.png 640w" sizes="20px" class="image-3">
+              <div class="text-block-5">En</div>
+              <div class="icon w-icon-dropdown-toggle"></div>
+            </div>
+            <nav class="dropdown-list w-dropdown-list" id="aas">
+            <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
  <div class="main-title">
    <div class="container">
      <h2 class="about-heading">Terms
      </h2>
    </div>
  </div>
-<br><br>
+
 <h1 class="bold text-center big-font contact-us-header">The Software WEBSITE TERMS OF USE IMPORTANT - PLEASE
     READ</h1>
-<div class="container terms" style="text-align:left; padding: 0 15px; margin-top:30px">
+<div class="container terms">
     <p>Thank you for visiting the website (the “Website”) on which you found the link to these Terms Of Use (the
         “Website”).
         The Website is an Internet property of TheSoftware. (referred to collectively as “TheSoftware,” “we” and “us”).
@@ -87,11 +87,11 @@ include('../helpers/gtm_no_script.php');
         manner
         or form.</p>
 
-    <p>TheSoftware SPECIFICALLY DENIES ACCESS TO THE WEBSITE AND/OR SERVICES BY ANY INDIVIDUAL THAT IS COVERED BY THE
-        CHILDREN’S ONLINE PRIVACY PROTECTION ACT OF 1998, AS AMENDED (“COPPA”). TheSoftware RESERVES THE RIGHT TO DENY
-        ACCESS TO THE SERVICES AND/OR WEBSITE TO ANY INDIVIDUAL, IN ITS SOLE AND EXCLUSIVE DISCRETION. </p>
+    <p>Thesoftware specifically denies access to the website and/or services by any individual that is covered by the
+        children’s online privacy protection act of 1998, as amended (“coppa”). thesoftware reserves the right to deny
+        access to the services and/or website to any individual, in its sole and exclusive discretion. </p>
 
-    <h2>SCOPE AND MODIFICATION OF THE AGREEMENT</h2>
+    <h2 class="upper-case">Scope and modification of the agreement</h2>
 
     <p>You agree to the terms and conditions outlined in the Agreement with respect to your use of the Website. The
         Agreement constitutes the entire and only agreement between you and TheSoftware with respect to your use of the
@@ -106,7 +106,7 @@ include('../helpers/gtm_no_script.php');
         check
         this page for updates and/or changes.</p>
 
-    <h2>REQUIREMENTS</h2>
+    <h2 class="upper-case">Requirements</h2>
 
     <p>The Website and Services are available only to individuals who can enter into legally binding contracts under
         applicable law. The Website and Services are not intended for use by individuals under the age of eighteen (18).
@@ -114,7 +114,7 @@ include('../helpers/gtm_no_script.php');
         you are under the age of eighteen (18), you do not have permission to use and/or access the Website and/or
         Services. </p>
 
-    <h2>DESCRIPTION OF THE SERVICES </h2>
+    <h2 class="upper-case"> description of the services </h2>
 
     <h3>Subscription Services </h3>
 
@@ -208,7 +208,7 @@ include('../helpers/gtm_no_script.php');
         that refusal to use the Website is your sole right and remedy with respect to any dispute that you may have with
         TheSoftware.</p>
 
-    <h2>CONTESTS </h2>
+    <h2 class="upper-case">Contests</h2>
 
     <p>From time-to-time, TheSoftware offers promotional prizes and other awards via Contests. By providing true and
         accurate information in connection with the applicable Contest registration form, and agreeing to the Official
@@ -225,7 +225,7 @@ include('../helpers/gtm_no_script.php');
         Registration
         Data criteria at any time, in its sole discretion. </p>
 
-    <h2>LICENSE GRANT </h2>
+    <h2 class="upper-case">License grant</h2>
 
     <p>As a user of the Website, you are granted a non-exclusive, non-transferable, revocable and limited license to
         access
@@ -247,7 +247,7 @@ include('../helpers/gtm_no_script.php');
         Your
         right to use the Website, Content, Contests and/or Services is not transferable. </p>
 
-    <h2>PROPRIETARY RIGHTS </h2>
+    <h2 class="upper-case">proprietary rights</h2>
 
     <p>The content, organization, graphics, design, compilation, magnetic translation, digital conversion, software,
         services and other matters related to the Website, Content, Contests and Services are protected under applicable
@@ -269,7 +269,7 @@ include('../helpers/gtm_no_script.php');
         consent
         is strictly prohibited. </p>
 
-    <h2>HYPERLINKING TO THE WEBSITE, CO-BRANDING, "FRAMING" AND/OR REFERENCING THE WEBSITE PROHIBITED </h2>
+    <h2 class="upper-case">Hyperlinking to the website, co-branding, "framing" and/or referencing the website prohibited </h2>
 
     <p>Unless expressly authorized by TheSoftware, no one may hyperlink the Website, or portions thereof (including, but
         not
@@ -281,88 +281,88 @@ include('../helpers/gtm_no_script.php');
         content
         or activity. You hereby acknowledge that you shall be liable for any and all damages associated therewith. </p>
 
-    <h2>EDITING, DELETING AND MODIFICATION </h2>
+    <h2 class="upper-case">Editing, deleting and modification </h2>
 
     <p>We reserve the right in our sole discretion to edit and/or delete any documents, information or other content
         appearing on the Website. </p>
 
-    <h2>DISCLAIMER </h2>
+    <h2 class="upper-case">Disclaimer </h2>
 
-    <p>THE WEBSITE, SERVICES, CONTESTS, CONTENT, ANY THIRD PARTY PRODUCTS THAT YOU MAY RECEIVE FROM ONE OF OUR THIRD
-        PARTY
-        PROVIDERS, AND/OR ANY OTHER PRODUCTS AND/OR SERVICES THAT YOU MAY APPLY FOR THROUGH THE WEBSITE ARE PROVIDED TO
-        YOU
-        ON AN “AS IS” AND “AS AVAILABLE” BASIS AND ALL WARRANTIES, EXPRESS AND IMPLIED, ARE DISCLAIMED TO THE FULLEST
-        EXTENT
-        PERMISSIBLE PURSUANT TO APPLICABLE LAW (INCLUDING, BUT NOT LIMITED TO, THE DISCLAIMER OF ANY WARRANTIES OF
-        MERCHANTABILITY, NON-INFRINGEMENT OF INTELLECTUAL PROPERTY AND/OR FITNESS FOR A PARTICULAR PURPOSE). IN
-        PARTICULAR,
-        BUT NOT AS A LIMITATION THEREOF, TheSoftware MAKES NO WARRANTY THAT: (A) THE WEBSITE, SERVICES, CONTESTS,
-        CONTENT,
-        ANY THIRD PARTY PRODUCTS THAT YOU MAY RECEIVE FROM ONE OF OUR THIRD PARTY PROVIDERS, AND/OR ANY OTHER PRODUCTS
-        AND/OR SERVICES THAT YOU MAY APPLY FOR THROUGH THE WEBSITE WILL MEET YOUR REQUIREMENTS; (B) THE WEBSITE,
-        SERVICES,
-        CONTESTS, CONTENT, ANY THIRD PARTY PRODUCTS THAT YOU MAY RECEIVE FROM ONE OF OUR THIRD PARTY PROVIDERS, AND/OR
-        ANY
-        OTHER PRODUCTS AND/OR SERVICES THAT YOU MAY APPLY FOR THROUGH THE WEBSITE WILL BE UNINTERRUPTED, TIMELY, SECURE
-        OR
-        ERROR-FREE; (C) YOU WILL QUALIFY FOR THE CONTESTS AND/OR SERVICES; OR (D) THE RESULTS THAT MAY BE OBTAINED FROM
-        THE
-        USE OF THE WEBSITE, SERVICES, CONTESTS, CONTENT, ANY THIRD PARTY PRODUCTS THAT YOU MAY RECEIVE FROM ONE OF OUR
-        THIRD
-        PARTY PROVIDERS, AND/OR ANY OTHER PRODUCTS AND/OR SERVICES THAT YOU MAY APPLY FOR THROUGH THE WEBSITE WILL BE
-        ACCURATE OR RELIABLE. THE WEBSITE, SERVICES, CONTESTS, CONTENT, ANY THIRD PARTY PRODUCTS THAT YOU MAY RECEIVE
-        FROM
-        ONE OF OUR THIRD PARTY PROVIDERS, AND/OR ANY OTHER PRODUCTS AND/OR SERVICES THAT YOU MAY APPLY FOR THROUGH THE
-        WEBSITE MAY CONTAIN BUGS, ERRORS, PROBLEMS OR OTHER LIMITATIONS. WE WILL NOT BE LIABLE FOR THE AVAILABILITY OF
-        THE
-        UNDERLYING INTERNET CONNECTION ASSOCIATED WITH THE WEBSITE. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN,
-        OBTAINED BY YOU FROM TheSoftware, ANY OF ITS THIRD PARTY PROVIDERS OR OTHERWISE THROUGH OR FROM THE WEBSITE,
-        SHALL
-        CREATE ANY WARRANTY NOT EXPRESSLY STATED IN THE AGREEMENT. </p>
+    <p>The website, services, contests, content, any third party products that you may receive from one of our third
+        Party
+        Providers, and/or any other products and/or services that you may apply for through the website are provided to
+        You
+        On an “as is” and “as available” basis and all warranties, express and implied, are disclaimed to the fullest
+        Extent
+        Permissible pursuant to applicable law (including, but not limited to, the disclaimer of any warranties of
+        Merchantability, non-infringement of intellectual property and/or fitness for a particular purpose). In
+        Particular,
+        But not as a limitation thereof, thesoftware makes no warranty that: (a) the website, services, contests,
+        Content,
+        Any third party products that you may receive from one of our third party providers, and/or any other products
+        And/or services that you may apply for through the website will meet your requirements; (b) the website,
+        Services,
+        Contests, content, any third party products that you may receive from one of our third party providers, and/or
+        Any
+        Other products and/or services that you may apply for through the website will be uninterrupted, timely, secure
+        Or
+        Error-free; (c) you will qualify for the contests and/or services; or (d) the results that may be obtained from
+        The
+        Use of the website, services, contests, content, any third party products that you may receive from one of our
+        Third
+        Party providers, and/or any other products and/or services that you may apply for through the website will be
+        Accurate or reliable. The website, services, contests, content, any third party products that you may receive
+        From
+        One of our third party providers, and/or any other products and/or services that you may apply for through the
+        Website may contain bugs, errors, problems or other limitations. We will not be liable for the availability of
+        The
+        Underlying internet connection associated with the website. No advice or information, whether oral or written,
+        Obtained by you from thesoftware, any of its third party providers or otherwise through or from the website,
+        Shall
+        Create any warranty not expressly stated in the agreement. </p>
 
-    <h2>DISCLAIMER FOR HARM CAUSED BY DOWNLOADS </h2>
+    <h2 class="upper-case">Disclaimer for harm caused by downloads </h2>
 
     <p>Visitors download information from the Website at their own risk. TheSoftware makes no warranty that such
         downloads
         are free of corrupting computer codes including, but not limited to, viruses and worms. </p>
 
-    <h2>LIMITATION OF LIABILITY </h2>
+    <h2 class="upper-case">Limitation of liability </h2>
 
-    <p>YOU EXPRESSLY UNDERSTAND AND AGREE THAT TheSoftware SHALL NOT BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT,
-        INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL AND/OR EXEMPLARY DAMAGES INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR
-        LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER INTANGIBLE LOSSES (EVEN IF TheSoftware HAS BEEN ADVISED OF THE
-        POSSIBILITY OF SUCH DAMAGES), TO THE FULLEST EXTENT PERMISSIBLE BY LAW FOR: (A) THE USE OR THE INABILITY TO USE
-        THE
-        WEBSITE, SERVICES, CONTESTS, CONTENT, ANY THIRD PARTY PRODUCTS THAT YOU MAY RECEIVE FROM ONE OF OUR THIRD PARTY
-        PROVIDERS, AND/OR ANY OTHER PRODUCTS AND/OR SERVICES THAT YOU MAY APPLY FOR THROUGH THE WEBSITE; (B) THE COST OF
-        PROCUREMENT OF SUBSTITUTE GOODS AND SERVICES RESULTING FROM ANY GOODS, DATA, INFORMATION AND/OR SERVICES
-        PURCHASED
-        OR OBTAINED FROM, OR TRANSACTIONS ENTERED INTO THROUGH, THE WEBSITE; (C) THE FAILURE TO QUALIFY FOR THE
-        CONTESTS,
-        SERVICES OR THIRD PARTY PRODUCTS FROM ANY OF OUR THIRD PARTY PROVIDERS, OR ANY SUBSEQUENT DENIAL OF THIRD PARTY
-        PRODUCTS FROM SAME; (D) THE UNAUTHORIZED ACCESS TO, OR ALTERATION OF, YOUR REGISTRATION DATA; AND (E) ANY OTHER
-        MATTER RELATING TO THE INABILITY TO USE THE WEBSITE, SERVICES, CONTESTS, CONTENT, ANY THIRD PARTY PRODUCTS THAT
-        YOU
-        MAY RECEIVE FROM ONE OF OUR THIRD PARTY PROVIDERS, AND/OR ANY OTHER PRODUCTS AND/OR SERVICES THAT YOU MAY APPLY
-        FOR
-        THROUGH THE WEBSITE. THIS LIMITATION APPLIES TO ALL CAUSES OF ACTION, IN THE AGGREGATE INCLUDING, BUT NOT
-        LIMITED
-        TO, BREACH OF CONTRACT, BREACH OF WARRANTY, NEGLIGENCE, STRICT LIABILITY, MISREPRESENTATIONS AND ANY AND ALL
-        OTHER
-        TORTS. YOU HEREBY RELEASE TheSoftware AND ALL OF TheSoftware’S THIRD PARTY PROVIDERS FROM ANY AND ALL
-        OBLIGATIONS,
-        LIABILITIES AND CLAIMS IN EXCESS OF THE LIMITATION STATED HEREIN. IF APPLICABLE LAW DOES NOT PERMIT SUCH
-        LIMITATION,
-        THE MAXIMUM LIABILITY OF TheSoftware TO YOU UNDER ANY AND ALL CIRCUMSTANCES WILL BE FIVE HUNDRED DOLLARS
+    <p>You expressly understand and agree that thesoftware shall not be liable to you or any third party for any direct,
+        Indirect, incidental, special, consequential and/or exemplary damages including, but not limited to, damages for
+        Loss of profits, goodwill, use, data or other intangible losses (even if thesoftware has been advised of the
+        Possibility of such damages), to the fullest extent permissible by law for: (a) the use or the inability to use
+        The
+        Website, services, contests, content, any third party products that you may receive from one of our third party
+        Providers, and/or any other products and/or services that you may apply for through the website; (b) the cost of
+        Procurement of substitute goods and services resulting from any goods, data, information and/or services
+        Purchased
+        Or obtained from, or transactions entered into through, the website; (c) the failure to qualify for the
+        Contests,
+        Services or third party products from any of our third party providers, or any subsequent denial of third party
+        Products from same; (d) the unauthorized access to, or alteration of, your registration data; and (e) any other
+        Matter relating to the inability to use the website, services, contests, content, any third party products that
+        You
+        May receive from one of our third party providers, and/or any other products and/or services that you may apply
+        For
+        Through the website. This limitation applies to all causes of action, in the aggregate including, but not
+        Limited
+        To, breach of contract, breach of warranty, negligence, strict liability, misrepresentations and any and all
+        Other
+        Torts. You hereby release thesoftware and all of thesoftware’s third party providers from any and all
+        Obligations,
+        Liabilities and claims in excess of the limitation stated herein. If applicable law does not permit such
+        Limitation,
+        The maximum liability of thesoftware to you under any and all circumstances will be five hundred dollars
         ($500.00).
-        THE NEGATION OF DAMAGES SET FORTH ABOVE IS A FUNDAMENTAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN YOU AND
-        TheSoftware. THE INABILITY TO USE THE WEBSITE, SERVICES, CONTESTS, CONTENT, ANY THIRD PARTY PRODUCTS THAT YOU
-        MAY
-        RECEIVE FROM ONE OF OUR THIRD PARTY PROVIDERS, AND/OR ANY OTHER PRODUCTS AND/OR SERVICES THAT YOU MAY APPLY FOR
-        THROUGH THE WEBSITE WOULD NOT BE PROVIDED TO YOU WITHOUT SUCH LIMITATIONS. </p>
+        The negation of damages set forth above is a fundamental element of the basis of the bargain between you and
+        Thesoftware. The inability to use the website, services, contests, content, any third party products that you
+        May
+        Receive from one of our third party providers, and/or any other products and/or services that you may apply for
+        Through the website would not be provided to you without such limitations. </p>
 
-    <h2>INDEMNIFICATION </h2>
+    <h2 class="upper-case">Indemnification </h2>
 
     <p>You agree to indemnify and hold TheSoftware, each of their parents, subsidiaries and affiliates, and each of
         their
@@ -379,7 +379,7 @@ include('../helpers/gtm_no_script.php');
         the
         right to assert and enforce these provisions directly against you on its own behalf. </p>
 
-    <h2>THIRD PARTY WEBSITES </h2>
+    <h2 class="upper-case">Third party websites </h2>
 
     <p>The Website may provide links to and/or refer you to other Internet websites and/or resources including, but not
         limited to, those owned and operated by Third Party Providers. Because TheSoftware has no control over such
@@ -392,7 +392,7 @@ include('../helpers/gtm_no_script.php');
         losses
         arising therefrom. </p>
 
-    <h2>PRIVACY POLICY/VISITOR INFORMATION </h2>
+    <h2 class="upper-case">Privacy policy/visitor information </h2>
 
     <p>Use of the Website, and all comments, feedback, information, Registration Data and/or materials that you submit
         through or in association with the Website, is subject to our Privacy Policy. We reserve the right to use all
@@ -400,7 +400,7 @@ include('../helpers/gtm_no_script.php');
         provided by
         you, in accordance with the terms of our Privacy Policy. To view our Privacy Policy, please Click Here. </p>
 
-    <h2>LEGAL WARNING </h2>
+    <h2 class="upper-case">LEGAL WARNING </h2>
 
     <p>Any attempt by any individual, whether or not a TheSoftware customer, to damage, destroy, tamper with, vandalize
         and/or otherwise interfere with the operation of the Website, is a violation of criminal and civil law and
@@ -408,7 +408,7 @@ include('../helpers/gtm_no_script.php');
         entity to
         the fullest extent permissible by law and in equity. </p>
 
-    <h2>CHOICE OF LAW/VENUE </h2>
+    <h2 class="upper-case">Choice of law/venue </h2>
 
     <p>Any disputes arising out of or related to the Agreement shall be governed by and construed in accordance with the
         laws of Estonia (without regard to conflict of law principles). Any award rendered shall be final and conclusive
@@ -441,7 +441,8 @@ include('../helpers/gtm_no_script.php');
           <a href="./" class="nav-link-5 w-nav-link">Terms and conditions</a>
           <a href="../privacy-policy" class="nav-link-6 w-nav-link">Privacy Policy</a>
           <a href="../cookie-policy/" class="nav-link-6 w-nav-link">cookie policy</a>
-        <a href="../contact-us/" class="nav-link-6 w-nav-link">contact us</a></nav>
+        <a href="../contact-us/" class="nav-link-6 w-nav-link">contact us</a>
+        <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a></nav>
       </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
   </div>
 </body>
