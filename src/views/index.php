@@ -87,7 +87,7 @@ today = mm + '/' + dd + '/' + yyyy;
           <div class="column-12 w-col w-col-4 w-col-stack">
             <div id="formTop" class="form-container">
               <div class="form-header">
-                <h3 class="form-title-2"><strong class="bold-text-11">Get started</strong><span class="text-span-5">right now!</span></h3>
+                <h3 class="form-title-2"><strong class="bold-text-11">Get started </strong><span class="text-span-5">right now!</span></h3>
               </div>
               <div class="form-box w-form">
                 <form id="formTop" name="email-form" data-name="Email Form" class="members-form">
