@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>The Bitcoin Revolution App ™ | Terms</title>
     <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/terms-conditions" />
+    <link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/terms-conditions" />
+    <link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/terms-conditions" />
     <script>
     var lang = 'en';
     var today = new Date();
@@ -36,7 +39,7 @@ include('../helpers/gtm_no_script.php');
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
         </div>
         <div class="div-block-5 lang-box">

@@ -12,6 +12,9 @@ var yyyy = today.getFullYear();
 
 today = mm + '/' + dd + '/' + yyyy;
 </script>
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/legit-or-scam" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/legit-or-scam" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/legit-or-scam" />
  </head>
 <body class="body-5">
   <div class="noscript w-embed w-iframe">
@@ -27,7 +30,7 @@ today = mm + '/' + dd + '/' + yyyy;
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
         </div>
         <div class="div-block-5 lang-box">
@@ -124,48 +127,7 @@ today = mm + '/' + dd + '/' + yyyy;
         <p class="invest-ph">In contrast, the automatic mode can be utilised by both new and experienced traders. Virtually no human intervention is required when trading in automatic mode, but investors still have the option of altering trading parameters, such as trading times and trade amount as well as stop loss and profit target levels. All in all, the automatic mode of the Bitcoin Revolution represents the application of the inventors’ strategies at their best.</p>
       </div>
     </div>
-    <div class="what-section">
-      <div class="container">
-        <h2 class="what-main-title">What is the Bitcoin Revolution?</h2>
-        <div class="what-list-wrap">
-          <div class="what-list left">
-            <div class="what-wrap">
-              <div class="what-img-wrap"><img src="../assets/revo1.png" alt class="what-img"></div>
-              <p class="what-desc text-last-center">Bitcoin Revolution has been acknowledged and honoured as the most profitable crypto trading software. The software won the top award in the ‘Trading Software’ category presented by the United States Trading Association.</p>
-            </div>
-          </div>
-          <div class="what-list right">
-            <div class="what-wrap">
-              <div class="what-img-wrap"><img src="../assets/revo2.png" alt class="what-img"></div>
-              <p class="what-desc text-last-center">Bitcoin Revolution allows investors to optimize their trading strategies so as to enhance their overall profitability. The software has historical market data of over 20 years to allow for accurate and efficient backtesting.</p>
-            </div>
-          </div>
-          <div class="what-list left">
-            <div class="what-wrap">
-              <div class="what-img-wrap"><img src="../assets/revo3.png" alt class="what-img"></div>
-              <p class="what-desc text-last-center">There is also a free and unlimited demo account for all Bitcoin Revolution users. This basically allows for forward testing in the live markets. Investors also get the chance to confirm the performance of the software before putting their capital at risk.</p>
-            </div>
-          </div>
-          <div class="what-list right">
-            <div class="what-wrap">
-              <div class="what-img-wrap"><img src="../assets/revo4.png" alt class="what-img"></div>
-              <p class="what-desc text-last-center">Bitcoin Revolution trades the Bitcoin and cryptocurrency markets with an incredible accuracy level of 99.4%. This clearly marks out the software as the most profitable and credible automated crypto trading software in the world.</p>
-            </div>
-          </div>
-          <div class="what-list left">
-            <div class="what-wrap">
-              <div class="what-img-wrap"><img src="../assets/revo5.png" alt class="what-img"></div>
-              <p class="what-desc text-last-center">When you join the Bitcoin Revolution family, you become part of an exclusive community of high earning investors who enjoy time and financial freedom. It is also free to become a member and no commissions are charged on your profits.</p>
-            </div>
-          </div>
-          <div class="what-list right">
-            <div class="what-wrap">
-              <div class="what-img-wrap"><img src="../assets/revo6.png" alt class="what-img"></div>
-              <p class="what-desc text-last-center">Bitcoin Revolution has a web-based interface and does not require any download, maintenance, or update. Access it on any device with an internet connection. This gives you the flexibility to trade at any time and from anywhere.</p>
-            </div>
-          </div>
-        </div><a href="#formTop" class="btn-blue mt-20 w-button">TRY BITCOIN REVOLUTION NOW</a></div>
-    </div>
+ 
     <div class="trading-section">
       <div class="container">
         <h2 class="trading-main-title">Trading with the Bitcoin Revolution</h2>

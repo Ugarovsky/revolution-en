@@ -13,14 +13,17 @@
   };
 </script>
 <link rel="canonical" href = "https://bitcoinrevolution.ai"/>
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/account-login" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/account-login" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/account-login" />
 <meta property="og:locale" content="en_GB"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Login and start trading | Bitcoin Revolution"/>
 <meta property="og:description" content=" You don't have to be a financial expert to use cutting-edge investment technology and make money trading Bitcoin. Our automated app does it all."/>
 <meta property="og:url" content="https://bitcoinrevolution.ai/account-login/"/>
 <meta property="og:image" content="../favicon.ico"/>
-<meta property="og:image:width" content="40px"/>
-<meta property="og:image:height" content="40px"/>
+<meta property="og:image:width" content="100"/>
+<meta property="og:image:height" content="100"/>
   <script>
     var lang = 'en';
     var today = new Date();
@@ -45,7 +48,7 @@
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
         </div>
         <div class="div-block-5 lang-box">

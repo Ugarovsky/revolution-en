@@ -3,18 +3,21 @@
   <meta charset="utf-8">
   <title>The Bitcoin Revolution App ™  Official Website</title>
   <meta name="description" content="Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here.">
-
-<link rel="canonical" href = "https://bitcoinrevolution.ai" />
+  <script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/" />
+<link rel="canonical" href="https://bitcoinrevolution.ai" />
 <meta property="og:locale" content="en_GB"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="The Bitcoin Revolution App ™  Official Website"/>
 <meta property="og:description" content=" Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here."/>
 <meta property="og:url" content="https://bitcoinrevolution.ai/"/>
 <meta property="og:image" content="./favicon.ico"/>
-<meta property="og:image:width" content="40px"/>
-<meta property="og:image:height" content="40px"/>
+<meta property="og:image:width" content="100"/>
+<meta property="og:image:height" content="100"/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head>
 
 <script>
 var lang = 'en';
@@ -48,7 +51,7 @@ today = mm + '/' + dd + '/' + yyyy;
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="./assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
           <div class="exclusive-flag flag-icon"></div> 
         </div>
         <div class="div-block-5 lang-box">
@@ -255,7 +258,7 @@ today = mm + '/' + dd + '/' + yyyy;
       <div class="proslist">
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon1.png" alt></div>
+            <div class="paragraph-21 p1"><i class="fas fa-comments-dollar"></i></div>
             <p class="paragraph-22 p22">Free Software Platform</p>
           </div>
           <p class="paragraph-23">The Bitcoin Revolution software platform is completely free of charge. We do not impose any fees upon download, nor do we deduct any percentage of your account balance for handling or withdrawals. Your funds and profits are 100% yours throughout the entire trading process. 
@@ -263,7 +266,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon2.png" alt></div>
+            <div class="paragraph-21 p1"><i class="fas fa-download"></i></div>
             <p class="paragraph-22 p22">No Download Required</p>
           </div>
           <p class="paragraph-23">The Bitcoin Revolution cryptocurrency trading app is based entirely here, on our official website. This means that you will not be required to download any software on your computer or mobile device in order to use it. You can access the Bitcoin Revolution platform anywhere and at any time from the comfort of your browser. 
@@ -271,7 +274,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon3.png" alt></div>
+            <div class="paragraph-21 p1"><i class="fas fa-user-plus"></i></div>
             <p class="paragraph-22 p22">Easy Sign Up Process
             </p>
           </div>
@@ -280,15 +283,15 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon4.png" alt></div>
-            <p class="paragraph-22 p22">Quick Authentication
+            <div class="paragraph-21 p1"><i class="fas fa-fighter-jet"></i></div>
+            <p class="paragraph-22 p22">Quick Authenticat ion
             </p>
           </div>
           <p class="paragraph-23">Our account verification process has been optimized over the years so that our clients can start trading in no time at all. All we require from you are your payment details and a few bits of personal data. In return, we ensure that you will not have to sit through long waiting times in order for your account to be authenticated. </p>
         </div>
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon4.png" alt></div>
+            <div class="paragraph-21 p1"><i class="fas fa-user-astronaut"></i></div>
             <p class="paragraph-22 p22">Inbuilt Demo Feature
             </p>
           </div>
@@ -296,7 +299,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon4.png" alt></div>
+            <div class="paragraph-21 p1"><i class="fas fa-money-bill-alt"></i></div>
             <p class="paragraph-22 p22">Low Initial Investment
             </p>
           </div>
@@ -315,7 +318,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon4.png" alt></div>
+            <div class="paragraph-21 p1"><i class="fas fa-clipboard-check"></i></div>
             <p class="paragraph-22 p22">High Success Rate
             </p>
           </div>
@@ -324,7 +327,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon4.png" alt></div>
+            <div class="paragraph-21 p1"><i class="fas fa-wallet"></i></div>
             <p class="paragraph-22 p22">Simple Withdrawals
 
             </p>
@@ -334,7 +337,7 @@ today = mm + '/' + dd + '/' + yyyy;
 
         <div class="prosblock">
           <div class="div-block-19">
-            <div class="paragraph-21 p1"><img src="./assets/key-icon4.png" alt></div>
+            <div class="paragraph-21 p1"><i class="fas fa-question"></i></div>
             <p class="paragraph-22 p22">24/7 Customer Support
 
 

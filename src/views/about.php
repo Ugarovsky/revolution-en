@@ -2,15 +2,15 @@
 <!DOCTYPE html><html data-wf-page="5e7e00ae09d0fef1c0b5ac6a" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
   <meta charset="utf-8">
   <title>About Us | Bitcoin Revolution</title>
-  <meta property="og:locale" content="en_GB"/>
+<meta property="og:locale" content="en_GB"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="About Us | Bitcoin Revolution"/>
 <meta property="og:description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro."/>
 <meta property="og:url" content="https://bitcoinrevolution.ai/about-us/"/>
 <meta property="og:image" content="./favicon.ico"/>
-<meta property="og:image:width" content="40px"/>
-<meta property="og:image:height" content="40px"/>
-  <link rel="canonical" href = "https://bitcoinrevolution.ai" />
+<meta property="og:image:width" content="100"/>
+<meta property="og:image:height" content="100"/>
+  <link rel="canonical" href="https://bitcoinrevolution.ai" />
   <meta name="description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro.">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <script>
@@ -23,7 +23,9 @@
     today = mm + '/' + dd + '/' + yyyy;
     </script>
     
- 
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/about-us" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/about-us" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/about-us" />
 </head>
 <body class="body-4">
   <div class="html-embed-6 w-embed w-script">
@@ -39,7 +41,7 @@
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2"> trades </span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for  </span><span class="text-span exc-2"> trades </span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
         </div>
         <div class="div-block-5 lang-box">

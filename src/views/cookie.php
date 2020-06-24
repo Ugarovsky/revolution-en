@@ -2,6 +2,9 @@
 <!DOCTYPE html><html data-wf-page="5e7e00ae09d0fef1c0b5ac6a" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
   <meta charset="utf-8">
   <title> Cookie policy | Bitcoin Revolution</title>
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/cookie-policy" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/cookie-policy" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/cookie-policy" />
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <script>
     var lang = 'en';
@@ -29,7 +32,7 @@
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
-          <div class="exclusive-text"><span>Exclusive offer for</span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
+          <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
         </div>
         <div class="div-block-5 lang-box">

@@ -103,6 +103,10 @@ module.exports = {
         }]),
 
         new CopyWebpackPlugin([{
+            from: 'src/.htaccess'
+        }]),
+
+        new CopyWebpackPlugin([{
             from: 'src/media/favicon.ico',
             to: 'favicon.ico'
         }]),
