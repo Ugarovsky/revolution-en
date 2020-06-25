@@ -1664,6 +1664,14 @@ document.getElementById('flag-head').style.backgroundImage = `url('./assets/flag
   .iti--allow-dropdown { 
     width: 100%;
   }
+
+  .iti__country {
+    font-size: 14px;
+}
+
+.form-cell {
+    height: 0px !important;
+}
 </style>
 <script>
   const flag = document.getElementsByClassName('iti__flag-container');

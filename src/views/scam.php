@@ -1442,6 +1442,9 @@ flagicons[1].remove();
   .iti--allow-dropdown { 
     width: 100%;
   }
+  .form-cell {
+    height: 0px !important;
+}
 </style>
 <script>
   const flag = document.getElementsByClassName('iti__flag-container');
