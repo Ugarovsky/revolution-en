@@ -1,6 +1,10 @@
+import intlTelInput from "intl-tel-input";
+
+
 import "../styles/sass/styles.scss";
 import "../styles/sass/build.scss"; // optional if you need to include the old build.scss
-var lang = 'en';
+
+
 ! function() {
     "use strict";
 
@@ -53,6 +57,7 @@ var lang = 'en';
             e.parentNode.removeChild(e)
         }()
 }();
+
 
 
 ! function(e) {
@@ -7096,6 +7101,20 @@ var lang = 'en';
 }]);
 
 window.$ = window.jQuery = require("jquery");
+let isoCode = document.head.querySelector("[name~=isoCode][content]").content;
+let inputs = document.getElementsByClassName("phone");
+let inputWrappers = document.getElementsByClassName("iti");
+let inputsArea = document.getElementsByClassName("area_code");
+
+// loop, create and set inputs
+for (var i = 0; i < inputs.length; i++) {
+    let iti = intlTelInput(inputs[i], {
+        initialCountry: isoCode,
+    });
+
+    inputWrappers[i].style.width = "100%"; // make component fit form
+    inputsArea[i].value = "+" + iti.getSelectedCountryData().dialCode; // set area code input field
+}
 
 /*** scrolling mechanism ***/
 $(".scroll_to_top").on("click", function () {
@@ -7109,6 +7128,7 @@ $(".scroll_to_top").on("click", function () {
 /*** end scrolling mechanism ***/
 
 /*** timer ***/
+
 
 function startTimer(duration, display) {
     var timer = duration,
@@ -7141,33 +7161,6 @@ $(".generate-pw-btn").click(function (e) {
 function randomPass() {
     return Math.random().toString(36).slice(-8);
 }
-/*** end pasword generator ***/
-
-/*** telephone input ***/
-
-// <input class="phone" name="phone">
-// <input class="phone" name="area_code">
-require("intl-tel-input/build/css/intlTelInput.css"); // import tel input css
-require("intl-tel-input/build/js/utils"); // import tel input utils
-import intlTelInput from "intl-tel-input";
-
-let isoCode = document.head.querySelector("[name~=isoCode][content]").content;
-let inputs = document.getElementsByClassName("phone");
-let inputWrappers = document.getElementsByClassName("iti");
-let inputsArea = document.getElementsByClassName("area_code");
-
-// loop, create and set inputs
-for (var i = 0; i < inputs.length; i++) {
-    let iti = intlTelInput(inputs[i], {
-        initialCountry: isoCode,
-    });
-
-    inputWrappers[i].style.width = "100%"; // make component fit form
-    inputsArea[i].value = "+" + iti.getSelectedCountryData().dialCode; // set area code input field
-}
-/*** end telephone input ***/
-
-// /*** form ***/
 $('form').submit(function (event) {
     let data = $(this).serialize();
     let originalBttnTxt = $(this).find('.btn_register').text();

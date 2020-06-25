@@ -1,14 +1,15 @@
 
 <!DOCTYPE html><html data-wf-page="5e71ba6688922678dda126d4" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
-  <meta charset="utf-8">
-  <title>The Bitcoin Revolution App ™  Official Website</title>
-  <meta name="description" content="Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here.">
-  <script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
+<meta charset="utf-8">
+<title>The Bitcoin Revolution App ™  Official Website</title>
+<meta name="description" content="Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here.">
+<script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
 <link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/" />
 <link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/" />
 <link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/" />
 <link rel="canonical" href="https://bitcoinrevolution.ai" />
 <meta property="og:locale" content="en_GB"/>
+<meta name="isoCode" content="BO">
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="The Bitcoin Revolution App ™  Official Website"/>
 <meta property="og:description" content=" Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here."/>
@@ -17,7 +18,7 @@
 <meta property="og:image:width" content="100"/>
 <meta property="og:image:height" content="100"/>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head>
 
 <script>
 var lang = 'en';
@@ -52,7 +53,7 @@ today = mm + '/' + dd + '/' + yyyy;
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="./assets/logo.png" alt class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
-          <div class="exclusive-flag flag-icon"></div> 
+          <div class="exclusive-flag flag-icon" id="flag-head"></div> 
         </div>
         <div class="div-block-5 lang-box">
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
@@ -91,42 +92,27 @@ today = mm + '/' + dd + '/' + yyyy;
               </div>
               <div class="form-box w-form">
                 <form id="formTop" name="email-form" data-name="Email Form" class="members-form">
-                  <div class="form-group"><input type="text" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[first_name]" data-name="FunnelRegistrationForm[first_name]" placeholder="First Name">
+                  <div class="form-group"><input type="text" class="form-control w-input" require maxlength="256" name="FunnelRegistrationForm[first_name]" data-name="FunnelRegistrationForm[first_name]" placeholder="First Name">
                     <div class="warning-icon"></div>
                   </div>
-                  <div class="form-group"><input type="text" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[last_name]" data-name="FunnelRegistrationForm[last_name]" placeholder="Last Name">
+                  <div class="form-group"><input type="text" require class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[last_name]" data-name="FunnelRegistrationForm[last_name]" placeholder="Last Name">
                     <div class="warning-icon"></div>
                   </div>
-                  <div class="form-group"><input type="email" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[email]" data-name="FunnelRegistrationForm[email]" placeholder="Email">
+                  <div class="form-group"><input type="email" require class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[email]" data-name="FunnelRegistrationForm[email]" placeholder="Email">
                     <div class="warning-icon"></div>
                   </div>
                   <div class="form-row-nowrap">
                     <div class="form-cell password-cell">
-                      <div class="form-group"><input type="text" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[password]" data-name="FunnelRegistrationForm[password]" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,12}$" placeholder="Password" title="Password needs to contain 6-12 characters, at least 1 number, 1 uppercase character and 1 lowercase character. Example Aa123456">
+                      <div class="form-group"><input type="hidden" id="form-pass" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[password]" data-name="FunnelRegistrationForm[password]" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,12}$" placeholder="Password" title="Password needs to contain 6-12 characters, at least 1 number, 1 uppercase character and 1 lowercase character. Example Aa123456">
                         <div class="warning-icon"></div>
-                      </div>
-                    </div>
-                    <div class="form-cell btn-cell">
-                      <div class="form-group">
-                        <div class="generate-pass">Generate Newpassword</div>
                       </div>
                     </div>
                   </div>
-                  <div class="form-group"><input type="text" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[country]" data-name="FunnelRegistrationForm[country]" placeholder="Country">
-                    <div class="warning-icon"></div>
-                  </div>
-                  <div class="phone-row">
-                    <div class="prefix-cell">
-                      <div class="form-group"><input type="text" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[phone_prefix]" data-name="FunnelRegistrationForm[phone_prefix]" placeholder="Prefix">
-                        <div class="warning-icon"></div>
-                      </div>
-                    </div>
-                    <div class="phone-cell">
-                      <div class="form-group"><input type="text" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[phone_number]" data-name="FunnelRegistrationForm[phone_number]" placeholder="Phone">
-                        <div class="warning-icon"></div>
-                      </div>
-                    </div>
-                    
+      <div class="input-wrapper" style="margin-bottom: 10px;">
+			<input class="area_code" name="area_code" type="hidden">
+			<input class="phone" name="phone" type="text">
+			<span class="error"></span>
+		</div>       
 	<input type="hidden" name="funnel" value="bitcoins-pro">
 	<input type="hidden" name="affid" value="2114">
 	<input type="hidden" name="_ip" value="<?php echo $clientIP; ?>">
@@ -683,19 +669,6 @@ function getLang() {
 
 
 <script>
-  window.setFlagIcon = function (countryCode){
-    $('.exclusive-offer .flag-icon').addClass('flag-icon-'+countryCode.toLowerCase()).addClass('show');
-  }
-  $(document).ready(function() { 
-    $(this).find('html').attr('lang', lang.substr(0,2));
-  })
-  document.addEventListener('geoInitialized', function (e) {
- console.log(e);
-         window.setFlagIcon(e.detail.country.code);
-});         
-</script>
-
-<script>
 
 function asd() { 
 (function($){
@@ -733,7 +706,70 @@ function asd() {
       });
   }
 })(jQuery);
+
+window.setFlagIcon = function (countryCode){
+    $('.exclusive-offer .flag-icon').addClass('flag-icon-'+countryCode.toLowerCase()).addClass('show');
+  } 
+    $(this).find('html').attr('lang', lang.substr(0,2));
+  document.addEventListener('geoInitialized', function (e) {
+ console.log(e);
+         window.setFlagIcon(e.detail.country.code);
+});         
 }
 
 setTimeout(asd , 4000);
+
+function randomPass() {
+     return Math.random().toString(36).slice(-8);
+ }
+document.getElementById('form-pass').value = randomPass()
+
 </script>
+<script>
+document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/BO.PNG')`;
+</script>
+
+<style>
+.members-form {
+    padding: 15px 15px 10px;
+    text-align: center;
+}
+
+.iti__flag {
+	 width: 20px;
+}
+ .iti__flag.iti__be {
+	 width: 18px;
+}
+ .iti__flag.iti__ch {
+	 width: 15px;
+}
+ .iti__flag.iti__mc {
+	 width: 19px;
+}
+ .iti__flag.iti__ne {
+	 width: 18px;
+}
+ .iti__flag.iti__np {
+	 width: 13px;
+}
+ .iti__flag.iti__va {
+	 width: 15px;
+}
+
+ 
+ @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	 .iti__flag {
+		 background-image: url("./assets/flags/flags@2x.png");
+	}
+}
+ .iti__flag.iti__np {
+	 background-color: transparent;
+}
+ 
+
+.iti__flag {background-image: url("./assets/flags/flags.png");}
+.iti--allow-dropdown { width:  100%;}
+.iti__standard { font-size: 14px;}
+
+</style>

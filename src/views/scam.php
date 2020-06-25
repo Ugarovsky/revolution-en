@@ -3,6 +3,7 @@
   <meta charset="utf-8">
   <title>Is Bitcoin Revolution Legit or Scam | Bitcoin Revolution
   </title>
+  <meta name="isoCode" content="BO">
   <script>
 var lang = 'en';
 var today = new Date();
@@ -65,48 +66,37 @@ today = mm + '/' + dd + '/' + yyyy;
               <div class="form-header">
                 <h3 class="form-title scam-form-title"><strong class="bold-text-11">CHANGE YOUR</strong><span class="text-span-5">LIFE TODAY!</span></h3>
               </div>
-              <div class="form-box scam-form w-form">
-                <form id="formTop" name="email-form" data-name="Email Form" class="members-form scam-members">
-                  <div class="form-group"><input type="text" class="form-control scam-control w-input" maxlength="256" name="FunnelRegistrationForm[first_name]" data-name="FunnelRegistrationForm[first_name]" placeholder="First Name">
+              <div class="form-box w-form">
+                <form id="formTop" name="email-form" data-name="Email Form" class="members-form">
+                  <div class="form-group"><input type="text" require class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[first_name]" data-name="FunnelRegistrationForm[first_name]" placeholder="First Name">
                     <div class="warning-icon"></div>
                   </div>
-                  <div class="form-group"><input type="text" class="form-control scam-control w-input" maxlength="256" name="FunnelRegistrationForm[last_name]" data-name="FunnelRegistrationForm[last_name]" placeholder="Last Name">
+                  <div class="form-group"><input type="text" require class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[last_name]" data-name="FunnelRegistrationForm[last_name]" placeholder="Last Name">
                     <div class="warning-icon"></div>
                   </div>
-                  <div class="form-group"><input type="email" class="form-control scam-control w-input" maxlength="256" name="FunnelRegistrationForm[email]" data-name="FunnelRegistrationForm[email]" placeholder="Email">
+                  <div class="form-group"><input type="email" require class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[email]" data-name="FunnelRegistrationForm[email]" placeholder="Email">
                     <div class="warning-icon"></div>
                   </div>
                   <div class="form-row-nowrap">
-                    <div class="form-cell">
-                      <div class="form-group"><input type="text" class="form-control scam-control w-input" maxlength="256" name="FunnelRegistrationForm[password]" data-name="FunnelRegistrationForm[password]" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,12}$" placeholder="Password" title="Password needs to contain 6-12 characters, at least 1 number, 1 uppercase character and 1 lowercase character. Example Aa123456">
+                    <div class="form-cell password-cell">
+                      <div class="form-group"><input type="hidden" id="form-pass" class="form-control w-input" maxlength="256" name="FunnelRegistrationForm[password]" data-name="FunnelRegistrationForm[password]" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{6,12}$" placeholder="Password" title="Password needs to contain 6-12 characters, at least 1 number, 1 uppercase character and 1 lowercase character. Example Aa123456">
                         <div class="warning-icon"></div>
-                      </div>
-                    </div>
-                    <div class="form-cell">
-                      <div class="form-group">
-                        <div class="generate-pass scam-control">Generate Newpassword</div>
                       </div>
                     </div>
                   </div>
-                  <div class="form-group"><input type="text" class="form-control scam-control w-input" maxlength="256" name="FunnelRegistrationForm[country]" data-name="FunnelRegistrationForm[country]" placeholder="Country">
-                    <div class="warning-icon"></div>
-                  </div>
-                  <div class="phone-row">
-                    <div class="prefix-cell">
-                      <div class="form-group"><input type="text" class="form-control scam-control w-input" maxlength="256" name="FunnelRegistrationForm[phone_prefix]" data-name="FunnelRegistrationForm[phone_prefix]" placeholder="Prefix">
-                        <div class="warning-icon"></div>
-                      </div>
-                    </div>
-                    <div class="phone-cell">
-                      <div class="form-group"><input type="text" class="form-control scam-control w-input" maxlength="256" name="FunnelRegistrationForm[phone_number]" data-name="FunnelRegistrationForm[phone_number]" placeholder="Phone">
-                        <div class="warning-icon"></div>
-                      </div>
-                    </div>
-                  </div><input type="submit" value="NEXT" data-wait="Please wait..." class="btn-primary btn-sm btn-100 scam-btn w-button">
+      <div class="input-wrapper" style="margin-bottom: 10px;">
+			<input class="area_code" name="area_code" type="hidden">
+			<input class="phone" name="phone" type="text">
+			<span class="error"></span>
+		</div>       
+	<input type="hidden" name="funnel" value="bitcoins-pro">
+	<input type="hidden" name="affid" value="2114">
+	<input type="hidden" name="_ip" value="<?php echo $clientIP; ?>">
+                  </div><input type="submit" value="GET STARTED NOW!" data-wait="Please wait..." class="btn-primary btn-sm btn-100 w-button">
                   <div class="scenario-input w-embed"><input type="hidden" name="scenario" value="_user_registration_without_phone"></div>
                 </form>
                 <div class="w-form-done">
-                  <div>Thank you! Your submission has been received!</div>
+                    <div>Thank you! Your submission has been received!</div>
                 </div>
                 <div class="w-form-fail">
                   <div>Oops! Something went wrong while submitting the form.</div>
@@ -452,6 +442,70 @@ function getLang() {
   }
 </script>
  
+<script>
+window.setFlagIcon = function (countryCode){
+    $('.exclusive-offer .flag-icon').addClass('flag-icon-'+countryCode.toLowerCase()).addClass('show');
+  } 
+    $(this).find('html').attr('lang', lang.substr(0,2));
+  document.addEventListener('geoInitialized', function (e) {
+ console.log(e);
+         window.setFlagIcon(e.detail.country.code);
+});         
+
+
+function randomPass() {
+     return Math.random().toString(36).slice(-8);
+ }
+document.getElementById('form-pass').value = randomPass()
+document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/BO.PNG')`;
+</script>
+<style>
+
+.iti__flag {
+	 width: 20px;
+}
+ .iti__flag.iti__be {
+	 width: 18px;
+}
+ .iti__flag.iti__ch {
+	 width: 15px;
+}
+ .iti__flag.iti__mc {
+	 width: 19px;
+}
+ .iti__flag.iti__ne {
+	 width: 18px;
+}
+ .iti__flag.iti__np {
+	 width: 13px;
+}
+ .iti__flag.iti__va {
+	 width: 15px;
+}
+.members-form {
+    padding: 15px 15px 10px;
+    text-align: center;
+}
+ 
+ @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+	 .iti__flag {
+		 background-image: url("../assets/flags/flags@2x.png");
+	}
+}
+ .iti__flag.iti__np {
+	 background-color: transparent;
+}
+ 
+
+.iti__flag {background-image: url("../assets/flags/flags.png");}
+.iti--allow-dropdown { width:  100%;}
+.iti__standard { font-size: 14px;}
+</style>
+
+<script>
+var flagicons = document.getElementsByClassName('iti__flag-container');
+flagicons[1].remove();
+</script>
 
 
 </body></html>
