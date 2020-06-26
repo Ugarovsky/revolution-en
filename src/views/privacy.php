@@ -1,11 +1,11 @@
-<?php include('../helpers/country_info.php'); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/privacy-policy" />
-<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/privacy-policy" />
-<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/privacy-policy" />
+<script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
+<link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/privacy-policy" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution.ai/es/privacy-policy" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution.ai/pl/privacy-policy" />
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,10 +14,7 @@
 </head>
 <body class="contact_page ready">
 
-<?php
-/*** Google Tag Manager - no script ***/
-include('../helpers/gtm_no_script.php');
-?>
+
 
 <!DOCTYPE html><html data-wf-page="5e7e00ae09d0fef1c0b5ac6a" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
   <meta charset="utf-8">
@@ -42,12 +39,12 @@ include('../helpers/gtm_no_script.php');
 
   <section class="warning">
     <div class="div-block">
-      <p class="paragraph-9"><strong>Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
+      <p class="paragraph-9"><strong>WARNING: Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
     </div>
   </section>
   <header class="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt="logo-image" class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
@@ -56,12 +53,12 @@ include('../helpers/gtm_no_script.php');
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
             <div class="dropdown-toggle w-dropdown-toggle"><img src="../assets/us.png" width="21" height="16" alt="en" srcset="../assets/us-p-500.png 500w, ../assets/us.png 640w" sizes="20px" class="image-3">
               <div class="text-block-5">En</div>
-              <div class="icon w-icon-dropdown-toggle"></div>
+              <div class="icon w-icon-dropdown-toggle"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-            <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
+            <div class="div-block-32"><a href="https://bitcoinrevolution.ai/de/" hreflang="de"><img width="20" src="../assets/de.png" alt="de-image" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/es/" hreflang="es"><img width="20" src="../assets/es.png" alt="es-image" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt="pl-image" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
           </div>
                </div>
       </div>

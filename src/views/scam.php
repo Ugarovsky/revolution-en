@@ -13,9 +13,11 @@ var yyyy = today.getFullYear();
 
 today = mm + '/' + dd + '/' + yyyy;
 </script>
-<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/legit-or-scam" />
-<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/legit-or-scam" />
-<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/legit-or-scam" />
+<script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
+<link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/legit-or-scam" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution.ai/es/legit-or-scam" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution.ai/pl/legit-or-scam" />
  </head>
 <body class="body-5">
   <div class="noscript w-embed w-iframe">
@@ -24,12 +26,12 @@ today = mm + '/' + dd + '/' + yyyy;
   </div>
   <section class="warning">
     <div class="div-block">
-      <p class="paragraph-9"><strong>Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
+      <p class="paragraph-9"><strong>WARNING: Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
     </div>
   </section>
   <header class="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt="logo image" class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
@@ -38,12 +40,12 @@ today = mm + '/' + dd + '/' + yyyy;
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
             <div class="dropdown-toggle w-dropdown-toggle"><img src="../assets/us.png" width="21" height="16" alt="en" srcset="../assets/us-p-500.png 500w, ../assets/us.png 640w" sizes="20px" class="image-3">
               <div class="text-block-5">En</div>
-              <div class="icon w-icon-dropdown-toggle"></div>
+              <div class="icon w-icon-dropdown-toggle"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-            <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
+            <div class="div-block-32"><a href="https://bitcoinrevolution.ai/de/" hreflang="de"><img width="20" src="../assets/de.png" alt="de-lang" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/es/" hreflang="es"><img width="20" src="../assets/es.png" alt="es-lang" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt="pl-lang" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
           </div>
         </div>
       </div>
@@ -108,10 +110,10 @@ today = mm + '/' + dd + '/' + yyyy;
       </div>
     </div>
     <div class="invest-section">
-      <div class="container w-clearfix"><img src="../assets/bitcoin.png" srcset="../assets/bitcoin-p-500.png 500w, ../assets/bitcoin.png 540w" sizes="(max-width: 574px) 94vw, 540px" alt class="invest-img-right">
+      <div class="container w-clearfix"><img src="../assets/bitcoin.png" alt="bitcoin-image" srcset="../assets/bitcoin-p-500.png 500w, ../assets/bitcoin.png 540w" sizes="(max-width: 574px) 94vw, 540px" alt="bitcoin image" class="invest-img-right">
         <p class="invest-ph">In 2017, a group of veteran traders teamed up with renowned economists and accomplished mathematicians to develop a day trading software that will trade the crypto markets with full automation. This marked the start of the <a href="?lp=1">Bitcoin Revolution</a> journey, a software that has now practically established itself as the most popular crypto software in the world.</p>
         <p class="invest-ph">The actual identity of the Bitcoin Revolution inventors has remained unknown, but the performance of the software is out there for every investor to see. The software has helped investors of all levels to earn consistent profits out of the cryptocurrency market, with minimal intervention required.</p>
-        <p class="invest-ph">The software has a user-friendly interface that is easily navigable even for new and inexperienced investors. Top traders had great input into the overall strategy implemented by the Bitcoin Revolution, but top FinTech technologies have also been applied to ensure that the software trades the crypto market with a near-perfect success rate. It is no doubt that the guarantee of consistent profits is the major reason why investors rank THE Bitcoin Revolution as the best crypto trading software in the world.</p><img src="../assets/robot.png" srcset="../assets/robot-p-500.png 500w, ../assets/robot.png 546w" sizes="(max-width: 479px) 94vw, (max-width: 574px) 95vw, 546px" alt class="invest-img-left">
+        <p class="invest-ph">The software has a user-friendly interface that is easily navigable even for new and inexperienced investors. Top traders had great input into the overall strategy implemented by the Bitcoin Revolution, but top FinTech technologies have also been applied to ensure that the software trades the crypto market with a near-perfect success rate. It is no doubt that the guarantee of consistent profits is the major reason why investors rank THE Bitcoin Revolution as the best crypto trading software in the world.</p><img src="../assets/robot.png" alt="robot-image" srcset="../assets/robot-p-500.png 500w, ../assets/robot.png 546w" sizes="(max-width: 479px) 94vw, (max-width: 574px) 95vw, 546px" alt class="invest-img-left">
         <p class="invest-ph mt-30">When trading with the Bitcoin Revolution, investors have the option to use Manual or Automatic modes. You can toggle between the modes, depending on your trading needs, experience as well as prevailing market conditions.</p>
         <p class="invest-ph">The manual mode is intended for experienced traders who desire to retain a great degree of control over their trading activities. In this mode, the Bitcoin Revolution generates quality high probability trading signals, but it is the investor that decides whether the signals should be executed in the market. This may be ideal for the more experienced traders, but the obvious disadvantage is that the time lag in execution can impact on overall profit levels.</p>
         <p class="invest-ph">In contrast, the automatic mode can be utilised by both new and experienced traders. Virtually no human intervention is required when trading in automatic mode, but investors still have the option of altering trading parameters, such as trading times and trade amount as well as stop loss and profit target levels. All in all, the automatic mode of the Bitcoin Revolution represents the application of the inventors’ strategies at their best.</p>
@@ -128,19 +130,19 @@ today = mm + '/' + dd + '/' + yyyy;
     <div class="steps-section">
       <div class="container">
         <h2 class="steps-main-title">Follow the steps below to start trading with the best crypto software in the world:</h2>
-        <div class="single-step w-clearfix"><img src="../assets/step1_1.png" alt class="step-img-right">
+        <div class="single-step w-clearfix"><img src="../assets/step1_1.png" alt="step-one" class="step-img-right">
           <h3 class="step-subtitle"><span class="violet">FIRST – REGISTER</span>Sign up to Join Bitcoin Revolution</h3>
           <p class="step-desc">Go to the Bitcoin Revolution homepage and fill out your registration details on the sign-up section. The details required are first name, last name, email address and phone number. You will also be prompted to create a unique password to secure your Bitcoin Revolution account.</p>
           <p class="step-desc">Submit your sign-up form and wait for approval. After approval, you will be given a choice of reputable global brokerage firms that support the Bitcoin Revolution software.</p>
           <p class="step-desc">Open a trading account with them to start trading with the Bitcoin Revolution. It is however important to first try out the software on a demo account before letting it run on real money. A demo account will also help you to understand all the platform idiosyncrasies of your preferred broker.</p>
         </div>
-        <div class="single-step w-clearfix"><img src="../assets/step2_1.png" alt class="step-img-right">
+        <div class="single-step w-clearfix"><img src="../assets/step2_1.png" alt="step-two" class="step-img-right">
           <h3 class="step-subtitle"><span class="violet">SECOND – DEMO ACCOUNT‍</span>Trade on a Demo Account</h3>
           <p class="step-desc">All Bitcoin Revolution investor members can utilise the free and unlimited demo account provided by all partner brokers. Start trading with Bitcoin Revolution on a demo account funded with $1,500. The funds are virtual, but the price action mirrors the real markets.</p>
           <p class="step-desc">Trading on a demo account will provide a clear picture of the risks and profits that Bitcoin Revolution investors are exposed to.</p>
           <p class="step-desc">Investors can also try out different strategies and get to learn how to navigate their broker’s trading platform.</p>
         </div>
-        <div class="single-step w-clearfix"><img src="../assets/step3_1.png" alt class="step-img-right">
+        <div class="single-step w-clearfix"><img src="../assets/step3_1.png" alt="step-three" class="step-img-right">
           <h3 class="step-subtitle"><span class="violet">THIRD – TRADE LIVE‍</span>Trade on a Real Account for Real Money</h3>
           <p class="step-desc">After a good performance on a demo account, it may be time to transition to a live account. You will now be trading on a real account, with real money, for real profits. Navigate to your Trading Room to select your trading strategy as well as the manner that trading signals will be executed on your account.</p>
           <p class="step-desc">On your Real Account page, you will view some content as follows:</p>
@@ -205,7 +207,7 @@ today = mm + '/' + dd + '/' + yyyy;
     </div>
     <div class="scam-section">
       <div class="container w-clearfix">
-        <h2 class="scam-main-title">Bitcoin Revolution Scam Review</h2><img src="../assets/notebook.png" alt class="scam-img">
+        <h2 class="scam-main-title">Bitcoin Revolution Scam Review</h2><img src="../assets/notebook.png" alt="notebook" class="scam-img">
         <p class="scam-ph">Automated trading represents the best way to trade any strategy in the market. It is no wonder that most investors are now looking to go the automation way so as to boost their profit margins.</p>
         <p class="scam-ph">Bitcoin Revolution offers such a solution.</p>
         <p class="scam-ph">It is an automated cryptocurrency trading software that was developed and launched in 2017. The software applies multiple advanced trading strategies to trade cryptocurrencies with amazing accuracy levels.</p>
@@ -222,7 +224,7 @@ today = mm + '/' + dd + '/' + yyyy;
         <p class="reviews-ph">Here are some of the popular TV shows associated with the <a href="?lp=1">Bitcoin Revolution</a>:</p>
         <div class="reviews-list-wrap w-row">
           <div class="reviews-list w-col w-col-4">
-            <div class="reviews-wrap"><img src="../assets/quotes_up.png" alt class="quotes-up"><img src="../assets/quotes_down.png" alt class="quotes-down">
+            <div class="reviews-wrap"><img src="../assets/quotes_up.png" alt="quotes" class="quotes-up"><img src="../assets/quotes_down.png" alt class="quotes-down">
               <h3 class="reviews-list-title">Dragons’ Den‍</h3>
               <p class="reviews-desc text-last-center">Dragons’ Den is a popular British TV show that gives entrepreneurs an opportunity to pitch their ideas to 5 multimillionaire investors. Where do the investors get their unlimited funds? With the big profits that the Bitcoin Revolution generates, this makes some people imagine that it is the Bitcoin Revolution that is funding the investors.</p>
             </div>
@@ -269,7 +271,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="works-step">
           <div class="works-header-wrap">
-            <div class="works-img-wrap"><img src="../assets/step_sm1.png" alt></div>
+            <div class="works-img-wrap"><img src="../assets/step_sm1.png" alt="step-one"></div>
             <h3 class="works-subtitle"><span class="text-span-7">Step 3</span>Open a Live Account</h3>
           </div>
           <p class="works-desc">After practising on a demo account, it is now time to transition to live trading so as to start making real money. Your live account trading panel is detailed to allow you to monitor all your trading activities with ease and convenience. There is an Account section where you can set different parameters and perform account settings, such as changing leverage, resetting the password, uploading your documents and activating VPS services.</p>
@@ -277,7 +279,7 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
         <div class="works-step">
           <div class="works-header-wrap">
-            <div class="works-img-wrap"><img src="../assets/step_sm4.png" alt></div>
+            <div class="works-img-wrap"><img src="../assets/step_sm4.png" alt="step-sm"></div>
             <h3 class="works-subtitle"><span class="text-span-7">Step 4</span>Deposit and Earn Profits</h3>
           </div>
           <p class="works-desc">After opening a live trading account, you just need to fund it and start trading for real profits. All Bitcoin Revolution partner brokers operate efficient payment systems and allow investors to make deposits or withdrawals using safe and convenient payment methods, such as major Debit/Credit Cards, secure Bank Wire and popular eWallets. You can start earning profits as soon as you make a successful deposit.</p>
@@ -346,7 +348,7 @@ today = mm + '/' + dd + '/' + yyyy;
 
     <div class="conclusion-section">
       <div class="container w-clearfix">
-        <h2 class="conclusion-main-title">Conclusion</h2><img src="../assets/conclusion.png" alt class="conclusion-img">
+        <h2 class="conclusion-main-title">Conclusion</h2><img src="../assets/conclusion.png" alt="conclusion" class="conclusion-img">
         <p class="conclusion-ph">Bitcoin Revolution is a revolutionary software that provides all types of investors with an opportunity to gain exposure to the lucrative cryptocurrency market. The software trades with a success rate of above 95% and more or less guarantees investors a source of consistent passive income. There are, of course, concerns about the validity of the software, but objective reviews of the software point to a legitimate automated crypto trading software.</p>
         <p class="conclusion-ph">Get started with the Bitcoin Revolution and change your life forever!</p><a href="#formTop" class="btn-blue mt-20 w-button">SIGN UP FOR YOUR FREE BITCOIN REVOLUTION ACCOUNT NOW</a></div>
     </div>
@@ -363,7 +365,7 @@ today = mm + '/' + dd + '/' + yyyy;
         <a href="../contact-us/" class="nav-link-6 w-nav-link">contact us</a>
         <a href="../legit-or-scam/" class="nav-link-6 w-nav-link">Bitcoin Revolution Scam</a>
       </nav>
-      </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Cannabis Millionaire Trader" class="image-8"></a></div>
+      </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Logo image" class="image-8"></a></div>
   </div>
 </body>
   <style>

@@ -12,10 +12,12 @@
       }
   };
 </script>
+<script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
+<link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
 <link rel="canonical" href = "https://bitcoinrevolution.ai"/>
-<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/account-login" />
-<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/account-login" />
-<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/account-login" />
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/account-login" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution.ai/es/account-login" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution.ai/pl/account-login" />
 <meta property="og:locale" content="en_GB"/>
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="Login and start trading | Bitcoin Revolution"/>
@@ -41,12 +43,12 @@
   </div>
   <section class="warning">
     <div class="div-block">
-      <p class="paragraph-9"><strong>Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
+      <p class="paragraph-9"><strong>WARNING: Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
     </div>
   </section>
   <header class="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt="logo-image" class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
@@ -55,12 +57,12 @@
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
             <div class="dropdown-toggle w-dropdown-toggle"><img src="../assets/us.png" width="21" height="16" alt="en" srcset="../assets/us-p-500.png 500w, ../assets/us.png 640w" sizes="20px" class="image-3">
               <div class="text-block-5">En</div>
-              <div class="icon w-icon-dropdown-toggle"></div>
+              <div class="icon w-icon-dropdown-toggle"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-            <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="../assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
+            <div class="div-block-32"><a href="https://bitcoinrevolution.ai/de/" hreflang="de"><img width="20" src="../assets/de.png" alt="de-lang" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/es/" hreflang="es"><img width="20" src="../assets/es.png" alt="es-lang" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt="pl-lang" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      </nav>
          </div>
              </div>
       </div>
@@ -116,14 +118,14 @@
   </section>
   <section class="login-process">
     <div class="container w-clearfix">
-      <img src="../assets/tablet.png" alt class="login-img-right">
+      <img src="../assets/tablet.png" alt="tablet" class="login-img-right">
       <p class="login-process-ph">There are certainly many pros to trading, but what about the cons? Human errors are perhaps the most notable drawback when it comes to trading any type of currency. Stories of accomplished and competent traders going broke after one rash decision or ill-advised investment are unfortunately quite common when it comes to forex.
       </p>
       <p class="login-process-ph">However, you don’t need to worry about life-altering mistakes when using the Bitcoin Revolution. The app and software our website operates on were developed by a team of financial experts and professional programmers to ensure accurate results every time. With the highest success rate on the market of over 99%, Bitcoin Revolution is your one way ticket to an affluent life where no luxury will be out of your reach.
       </p>
       <p class="login-process-ph">Join Bitcoin Revolution today and get ahead on the path towards authentic financial freedom!
       </p>
-       <div class="break"></div><img src="../assets/notebook_1.png" alt class="login-img-left">
+       <div class="break"></div><img src="../assets/notebook_1.png" alt="notebook" class="login-img-left">
       <h3 class="login-process-subtitle">Contact Us</h3>
       <p class="login-process-ph">You will never walk alone in crypto land when trading with the Bitcoin Revolution. Our customer support team is friendly, professional and is available to help you. Get in touch with the team instantly by filling out the ‘Contact Us’ form on this page.</p>
       <p class="login-process-ph">At Bitcoin Evolution, we value customer feedback. This also extends to our brokerage partners, whom we carefully selected so that investors can gain maximum value for their starting capital. All the brokers run their own excellent customer support teams, but we are always ready to help our investors with our own team as well.

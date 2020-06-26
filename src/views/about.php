@@ -10,6 +10,7 @@
 <meta property="og:image" content="./favicon.ico"/>
 <meta property="og:image:width" content="100"/>
 <meta property="og:image:height" content="100"/>
+<script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
   <link rel="canonical" href="https://bitcoinrevolution.ai" />
   <meta name="description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro.">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -22,10 +23,11 @@
     
     today = mm + '/' + dd + '/' + yyyy;
     </script>
-    
-<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/about-us" />
-<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/about-us" />
-<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/about-us" />
+    <link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
+<link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/about-us" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution.ai/es/about-us" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution.ai/pl/about-us" />
 </head>
 <body class="body-4">
   <div class="html-embed-6 w-embed w-script">
@@ -34,12 +36,12 @@
 
   <section class="warning">
     <div class="div-block">
-      <p class="paragraph-9"><strong>Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
+      <p class="paragraph-9"><strong>WARNING: Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
     </div>
   </section>
   <header class="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt="logo image" class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for  </span><span class="text-span exc-2"> trades </span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
          
@@ -48,12 +50,13 @@
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
             <div class="dropdown-toggle w-dropdown-toggle"><img src="../assets/us.png" width="21" height="16" alt="en" srcset="../assets/us-p-500.png 500w, ../assets/us.png 640w" sizes="20px" class="image-3">
               <div class="text-block-5">En</div>
-              <div class="icon w-icon-dropdown-toggle"></div>
+              <div class="icon w-icon-dropdown-toggle"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-            <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="../assets/de.png" alt class="image-11">German</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="../assets/es.png" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      
+              
+            <div class="div-block-32"><a href="https://bitcoinrevolution.ai/de/" hreflang="de"><img width="20" src="../assets/de.png" alt="de lang" class="image-11">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/es/" hreflang="es"><img width="20" src="../assets/es.png" alt="es lang" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt='pl lang' class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      
             </nav>
           </div>
         </div>
@@ -113,7 +116,7 @@
       <a href="../account-login/" class="button-3 button_color w-button mr-50">JOIN THE BITCOIN REVOLUTION NOW</a>
     
     
-    <img src="./../assets/about.JPG"  width="80%" id="about-img" alt="" class="mr-50">  
+    <img src="./../assets/about.JPG"  width="80%" id="about-img" alt="about image" class="mr-50">  
     </div>
 </section>
   <div id="footer" class="footer">

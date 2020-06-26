@@ -4,9 +4,10 @@
 <title>The Bitcoin Revolution App ™  Official Website</title>
 <meta name="description" content="Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here.">
 <script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
-<link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/" />
-<link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/" />
-<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/" />
+<link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
+<link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/" />
+<link rel="alternate" hreflang="es" href="https://bitcoinrevolution.ai/es/" />
+<link rel="alternate" hreflang="pl" href="https://bitcoinrevolution.ai/pl/" />
 <link rel="canonical" href="https://bitcoinrevolution.ai" />
 <meta property="og:locale" content="en_GB"/>
 <meta name="isoCode" content="BO">
@@ -45,12 +46,12 @@ today = mm + '/' + dd + '/' + yyyy;
   </div>
   <section class="warning">
     <div class="div-block">
-      <p class="paragraph-9"><strong>Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
+      <p class="paragraph-9"><strong>WARNING: Due to extremely high media demand, we will close registration as of <script>document.write(today)</script> - HURRY!</p>
     </div>
   </section>
   <header class="header" id="header">
     <div class="container w-container">
-      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="./assets/logo.png" alt class="logo"></a>
+      <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="./assets/logo.png" alt="logo-image" class="logo"></a>
         <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
           <div class="exclusive-flag flag-icon" id="flag-head"></div> 
@@ -59,12 +60,12 @@ today = mm + '/' + dd + '/' + yyyy;
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
             <div class="dropdown-toggle w-dropdown-toggle"><img src="./assets/us.png" width="21" height="16" alt="en" srcset="./assets/us-p-500.png 500w, ./assets/us.png 640w" sizes="20px" class="image-3">
               <div class="text-block-5">En</div>
-              <div class="icon w-icon-dropdown-toggle"></div>
+              <div class="icon w-icon-dropdown-toggle"><i class="fa fa-long-arrow-down" aria-hidden="true"></i></div>
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
-              <div class="div-block-32"><a href="https://bitcoinrevolution/de/" hreflang="de"><img width="20" src="./assets/de.png" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/es/" hreflang="es"><img width="20" src="./assets/es.png" srcset="./assets/es-p-500.png 500w, ./assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
-              <div class="div-block-32"><a href="https://bitcoinrevolution/pl/" hreflang="pl"><img width="20" src="./assets/pl.svg" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/de/" hreflang="de"><img width="20" src="./assets/de.png" alt="de-lang" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/es/" hreflang="es"><img width="20" src="./assets/es.png" alt="es-lang" srcset="./assets/es-p-500.png 500w, ./assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
+              <div class="div-block-32"><a href="https://bitcoinrevolution.ai/pl/" hreflang="pl"><img width="20" src="./assets/pl.svg" alt="pl-lang" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>
              </nav>
           </div>
         </div>
@@ -155,19 +156,19 @@ today = mm + '/' + dd + '/' + yyyy;
   <section class="skills">
     <div class="container-2 c2">
       <div class="boxes">
-        <div class="div-block-16 hover-img"><img src="./assets/soft1.png" alt></div>
+        <div class="div-block-16 hover-img"><img src="./assets/soft1.png" alt="soft"></div>
         <div class="text-block">1. Superior Performance</div>
         <div class="text-block-4">Our proprietary Bitcoin Revolution trading software performs at an accuracy level of 99.4%, which is why our clients trust us with their funds. Putting your hard-earned money into Bitcoin Revolution is a sure way to multiply them, and the more you invest the more you will get back. 
         </div>
       </div>
       <div class="boxes">
-        <div class="div-block-16 hover-img"><img src="./assets/soft2.png" alt></div>
+        <div class="div-block-16 hover-img"><img src="./assets/soft2.png" alt="soft-2"></div>
         <div class="text-block"><strong>2. Innovative Software</strong></div>
         <div class="text-block-4">When we created the Bitcoin Revolution trading software, we made sure to employ the most innovative technology the industry had to offer. This ensures that you and your earnings will always be at least 0.01 seconds ahead of the market at any given time. 
         </div>
       </div>
       <div class="boxes boxes-last">
-        <div class="div-block-16 hover-img "><img src="./assets/soft3.png" alt></div>
+        <div class="div-block-16 hover-img "><img src="./assets/soft3.png" alt="soft-3"></div>
         <div class="text-block">3. Secure Encryption</div>
         <div class="text-block-4">State of the art security is essential when trading cryptocurrency, and this is exactly what you will experience with the Bitcoin Revolution app. This is why we always collaborate with the best brokers in the industry, as well as encrypt your private financial data to prevent malicious third parties from gaining access to it.</div>
       </div>
@@ -211,7 +212,7 @@ today = mm + '/' + dd + '/' + yyyy;
     <div class="skill-wrap">
       <div class="container-2 c2 c3">
         <div class="boxes b1">
-          <div class="div-block-16 d16"><img src="./assets/step1.png" alt class="image-10">
+          <div class="div-block-16 d16"><img src="./assets/step1.png" alt="step-one" class="image-10">
             <h3 class="step-title">Step one:</h3>
           </div>
           <div class="text-block t1">Register an Account</div>
@@ -219,7 +220,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </div>
         </div>
         <div class="boxes b1">
-          <div class="div-block-16 d16"><img src="./assets/step2.png" alt class="image-10">
+          <div class="div-block-16 d16"><img src="./assets/step2.png" alt="step-two" class="image-10">
             <h3 class="step-title">Step two:</h3>
           </div>
           <div class="text-block t1">Fund Your Account</div>
@@ -227,7 +228,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </div>
         </div>
         <div class="boxes b1">
-          <div class="div-block-16 d16"><img src="./assets/step3.png" alt class="image-10">
+          <div class="div-block-16 d16"><img src="./assets/step3.png" alt="step-three" class="image-10">
             <h3 class="step-title">Step three</h3>
           </div>
           <div class="text-block t1">Trade Like a Pro</div>
@@ -335,12 +336,12 @@ today = mm + '/' + dd + '/' + yyyy;
       </div>
     </div>
   </section>
-  <div class="requirement r1 r3"><img src="./assets/btc.png" alt class="image-6">
+  <div class="requirement r1 r3"><img src="./assets/btc.png" alt="bitcoin image" class="image-6">
     <div class="container c3">
       <h2 class="heading-7 h7">Live Results</h2>
       <h2 class="heading-7 h3">watch the bitcoin revolution software in action</h2>
       <div id="winner-table" class="winner-table"></div>
-    </div><img src="./assets/btc.png" alt class="image-7"></div>
+    </div><img src="./assets/btc.png" alt="bitcoin image" class="image-7"></div>
   <div class="requirement r1 faq">
     <div class="container">
       <h2 class="heading-7 h1 h2 center">Frequently Asked Questions</h2>
@@ -536,7 +537,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </p>
         </div>
         <div class="some-client">
-         <div class="cl-photo" style="background: url(./assets/mark.jpg)"> <img src="" alt=""> </div>
+         <div class="cl-photo" style="background: url(./assets/mark.jpg)"> <img src="" alt="mark"> </div>
           <h3>Mark G. - Buffalo, NY
           </h3>
           <p class="profit">Profit: $7,746</p>
