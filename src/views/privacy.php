@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta property="og:image" content="../assets/Bitcoin.jpg"/>
+<meta property="og:image:width" content="445"/>
+<meta property="og:image:height" content="300"/>
 <script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
 <link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
 <link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/privacy-policy" />
@@ -11,6 +14,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Privacy Policy</title>
     <link rel="shortcut icon" href="/favicon.ico">
+
+    <?php 
+        /*** Google Tag Manager ***/
+        include('../helpers/gtm.php');
+    ?>
 </head>
 <body class="contact_page ready">
 

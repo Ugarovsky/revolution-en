@@ -13,6 +13,9 @@ var yyyy = today.getFullYear();
 
 today = mm + '/' + dd + '/' + yyyy;
 </script>
+<meta property="og:image" content="../assets/Bitcoin.jpg"/>
+<meta property="og:image:width" content="445"/>
+<meta property="og:image:height" content="300"/>
 <script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
 <link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
 <link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/legit-or-scam" />
@@ -50,6 +53,10 @@ today = mm + '/' + dd + '/' + yyyy;
         </div>
       </div>
     </div>
+    <?php 
+        /*** Google Tag Manager ***/
+        include('../helpers/gtm.php');
+    ?>
   </header>
   <div class="new-content">
     <div class="main-section">

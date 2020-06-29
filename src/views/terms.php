@@ -1,4 +1,3 @@
-<?php include('../helpers/country_info.php'); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,6 +10,10 @@
     <link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/terms-conditions" />
     <link rel="alternate" hreflang="es" href="https://bitcoinrevolution.ai/es/terms-conditions" />
     <link rel="alternate" hreflang="pl" href="https://bitcoinrevolution.ai/pl/terms-conditions" />
+    <script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
+    <?php 
+        include('../helpers/gtm.php');
+    ?>
     <script>
     var lang = 'en';
     var today = new Date();
@@ -22,10 +25,6 @@
 </head>
 <body class="contact_page ready">
 
-<?php
-/*** Google Tag Manager - no script ***/
-include('../helpers/gtm_no_script.php');
-?>
   <div class="html-embed-6 w-embed w-script">
  
  </div>

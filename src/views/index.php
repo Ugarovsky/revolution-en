@@ -15,10 +15,13 @@
 <meta property="og:title" content="The Bitcoin Revolution App ™  Official Website"/>
 <meta property="og:description" content=" Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here."/>
 <meta property="og:url" content="https://bitcoinrevolution.ai/"/>
-<meta property="og:image" content="./favicon.ico"/>
-<meta property="og:image:width" content="100"/>
-<meta property="og:image:height" content="100"/>
-
+<meta property="og:image" content="./assets/Bitcoin.jpg"/>
+<meta property="og:image:width" content="445"/>
+<meta property="og:image:height" content="300"/>
+<?php 
+        /*** Google Tag Manager ***/
+        include('../helpers/gtm.php');
+    ?>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head>
 
 <script>

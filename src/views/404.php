@@ -5,6 +5,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
+
     <?php 
         /*** Google Tag Manager ***/
         include('../helpers/gtm.php');

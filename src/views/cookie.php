@@ -1,7 +1,11 @@
 
 <!DOCTYPE html><html data-wf-page="5e7e00ae09d0fef1c0b5ac6a" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
   <meta charset="utf-8">
+<meta property="og:image" content="../assets/Bitcoin.jpg"/>
+<meta property="og:image:width" content="445"/>
+<meta property="og:image:height" content="300"/>
   <title> Cookie policy | Bitcoin Revolution</title>
+  <script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
 <link rel="alternate" hreflang="de" href="https://bitcoinrevolution/de/cookie-policy" />
 <link rel="alternate" hreflang="es" href="https://bitcoinrevolution/es/cookie-policy" />
 <link rel="alternate" hreflang="pl" href="https://bitcoinrevolution/pl/cookie-policy" />
@@ -15,7 +19,10 @@
     
     today = mm + '/' + dd + '/' + yyyy;
     </script>
-    
+        <?php 
+        /*** Google Tag Manager ***/
+        include('../helpers/gtm.php');
+    ?>
  
 </head>
 <body class="body-4">

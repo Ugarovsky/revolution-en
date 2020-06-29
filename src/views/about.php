@@ -7,9 +7,9 @@
 <meta property="og:title" content="About Us | Bitcoin Revolution"/>
 <meta property="og:description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro."/>
 <meta property="og:url" content="https://bitcoinrevolution.ai/about-us/"/>
-<meta property="og:image" content="./favicon.ico"/>
-<meta property="og:image:width" content="100"/>
-<meta property="og:image:height" content="100"/>
+<meta property="og:image" content="../assets/Bitcoin.jpg"/>
+<meta property="og:image:width" content="445"/>
+<meta property="og:image:height" content="300"/>
 <script src="https://kit.fontawesome.com/a5598cee1d.js" crossorigin="anonymous"></script>
   <link rel="canonical" href="https://bitcoinrevolution.ai" />
   <meta name="description" content="Our collective experience with the forex market is what motivated us to find a lucrative way to trade Bitcoin and other cryptos like a pro.">
@@ -23,6 +23,10 @@
     
     today = mm + '/' + dd + '/' + yyyy;
     </script>
+        <?php 
+        /*** Google Tag Manager ***/
+        include('../helpers/gtm.php');
+    ?>
     <link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
 <link rel="alternate" hreflang="en" href="https://bitcoinrevolution.ai/" />
 <link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/about-us" />
@@ -54,7 +58,7 @@
             </div>
             <nav class="dropdown-list w-dropdown-list" id="aas">
               
-            <div class="div-block-32"><a href="https://bitcoinrevolution.ai/de/" hreflang="de"><img width="20" src="../assets/de.png" alt="de lang" class="image-11">German</a></div>
+            <div class="div-block-32"><a href="https://bitcoinrevolution.ai/de/" hreflang="de"><img width="20" src="../assets/de.png" alt="de lang" class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">German</a></div>
               <div class="div-block-32"><a href="https://bitcoinrevolution.ai/es/" hreflang="es"><img width="20" src="../assets/es.png" alt="es lang" srcset="../assets/es-p-500.png 500w, ../assets/es.png 640w" sizes="100vw" alt class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Spanish</a></div>
               <div class="div-block-32"><a href="https://bitcoinrevolution.ai/pl/" hreflang="pl"><img width="20" src="../assets/pl.svg" alt='pl lang' class="image-11"><a href="?lp=1" class="dropdown-link w-dropdown-link">Polish</a></div>      
             </nav>
@@ -114,8 +118,6 @@
       <p class="paragraph-34">That being said, it is important to note at this point that our door might be open to welcoming new clients every day, but that won’t always be the case. Laying the truth all the line, there simply isn’t enough Bitcoin in the world for seven billion people, and that is exactly what makes trading it so beautiful.</p>
       <p class="paragraph-34">This is why you need to act fast if you’ve ever shown interest in becoming a seasoned pro on the cryptocurrency exchange market. Remember, you can only achieve true financial freedom when you invest smart, and investing smart nowadays means investing in Bitcoin. So, what are you waiting for? Join Bitcoin Revolution today and live the life you’ve always dreamed of!</p>
       <a href="../account-login/" class="button-3 button_color w-button mr-50">JOIN THE BITCOIN REVOLUTION NOW</a>
-    
-    
     <img src="./../assets/about.JPG"  width="80%" id="about-img" alt="about image" class="mr-50">  
     </div>
 </section>

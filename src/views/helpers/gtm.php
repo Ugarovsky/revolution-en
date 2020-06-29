@@ -4,7 +4,6 @@
 
 ?>
 
-<!-- Google Tag Manager -->
 <script>
 	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
 
@@ -14,4 +13,3 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','<?php echo $gtm_id; ?>');
 </script>
-<!--	End Google Tag Manager -->
