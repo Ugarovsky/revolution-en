@@ -14,7 +14,7 @@
 	try { 
 	$reader = new Reader($geoDBLocation);
 	} catch(Exception $e) {
-		$geoDBLocation = $localhost ? '../../GeoIP2-City.mmdb' : '/home/forge/geoip/GeoIP2-City.mmdb';
+		$geoDBLocation = $localhost ? '../../GeoIP2-City.mmdb' : '../home/forge/geoip/GeoIP2-City.mmdb';
 		$reader = new Reader($geoDBLocation);
 	} 
 	
