@@ -1,7 +1,11 @@
+<?php
+	include('../helpers/country_info.php')
+?>
 
 <!DOCTYPE html>
  <html data-wf-page="5e7cbd037227787b827e077c" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
   <meta charset="utf-8">
+  <meta name="isoCode" content="<?php echo strtolower($country->isoCode) ?>">   
   <title>Login and Start Trading | Bitcoin Revolution</title>
   <meta name="description" content="You don't have to be a financial expert to use cutting-edge investment technology and make money trading Bitcoin. Our automated app does it all">
   <script>
@@ -55,9 +59,9 @@
   <header class="header">
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt="logo-image" class="logo"></a>
-        <div class="exclusive-offer">
+      <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
-         
+          <div class="exclusive-flag flag-icon" id="flag-head"></div> 
         </div>
         <div class="div-block-5 lang-box">
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
@@ -210,6 +214,8 @@
 function getLang() { 
     $('#aas').slideDown('slow')
   }
+  document.getElementById('flag-head').style.backgroundImage = `url('../assets/flags/<?php echo strtolower($country->isoCode) ?>.PNG')`;
+
 </script>
 
 </html>

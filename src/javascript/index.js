@@ -2,7 +2,6 @@ import intlTelInput from "intl-tel-input";
 
 
 import "../styles/sass/styles.scss";
-import "../styles/sass/build.scss"; // optional if you need to include the old build.scss
 
 
 ! function() {
@@ -7252,36 +7251,3 @@ $(".formContainer form").on("submit", function (e) {
     return false;
 });
 /*** end contact form ***/
-
-/*** random table ***/
-function sortTable() {
-    //1. get all rows
-    let rowsCollection = document
-        .getElementById("table_profits")
-        .querySelectorAll("tr");
-
-    //2. convert to array
-    let rows = Array.from(rowsCollection).slice(1); // skip the header row
-
-    //3. shuffle
-    for (var i = rows.length - 1; i > 0; i--) {
-        var j = Math.floor(Math.random() * (i + 1));
-        var temp = rows[i];
-        rows[i] = rows[j];
-        rows[j] = temp;
-    }
-
-    //4. add back to the DOM
-    for (const row of rows) {
-        $("#table_profits").find("tbody").append(row);
-    }
-}
-
-//5. repeat
-if (document.getElementById("table_profits")) {
-    setInterval(function () {
-        sortTable();
-    }, 3000);
-}
-    /*** end random table ***/
-

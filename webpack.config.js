@@ -147,12 +147,7 @@ module.exports = {
         }),
 
 
-        // 
-        new HtmlWebpackPlugin({
-            filename: 'partials/footer.php',
-            template: 'src/views/partials/footer.php',
-            inject: false // don't inject any js files
-        }),
+   
 
 
 

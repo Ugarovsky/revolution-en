@@ -1,4 +1,8 @@
 
+<?php
+	include('./helpers/country_info.php')
+?>
+
 <!DOCTYPE html><html data-wf-page="5e71ba6688922678dda126d4" data-wf-site="5e71ba6688922632b0a126d3" lang="en-US"><head>
 <meta charset="utf-8">
 <title>The Bitcoin Revolution App ™  Official Website</title>
@@ -10,7 +14,7 @@
 <link rel="alternate" hreflang="pl" href="https://bitcoinrevolution.ai/pl/" />
 <link rel="canonical" href="https://bitcoinrevolution.ai" />
 <meta property="og:locale" content="en_GB"/>
-<meta name="isoCode" content="BO">
+<meta name="isoCode" content="<?php echo strtolower($country->isoCode) ?>">
 <meta property="og:type" content="website"/>
 <meta property="og:title" content="The Bitcoin Revolution App ™  Official Website"/>
 <meta property="og:description" content=" Bitcoin Revolution is an advanced trading system that allows both beginners and experts to trade crypto for a profit ➤ Sign up on the official platform here."/>
@@ -20,7 +24,7 @@
 <meta property="og:image:height" content="300"/>
 <?php 
         /*** Google Tag Manager ***/
-        include('../helpers/gtm.php');
+        include('./helpers/gtm.php');
     ?>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></head>
 
@@ -540,7 +544,7 @@ today = mm + '/' + dd + '/' + yyyy;
           </p>
         </div>
         <div class="some-client">
-         <div class="cl-photo" style="background: url(./assets/mark.jpg)"> <img src="" alt="mark"> </div>
+         <div class="cl-photo" style="background: url(./assets/mark.jpg)"> </div>
           <h3>Mark G. - Buffalo, NY
           </h3>
           <p class="profit">Profit: $7,746</p>
@@ -727,10 +731,7 @@ function randomPass() {
      return Math.random().toString(36).slice(-8);
  }
 document.getElementById('form-pass').value = randomPass()
-
-</script>
-<script>
-document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/BO.PNG')`;
+document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/<?php echo strtolower($country->isoCode) ?>.PNG')`;
 </script>
 
 <style>

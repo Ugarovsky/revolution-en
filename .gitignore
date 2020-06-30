@@ -1,4 +1,7 @@
+GeoIP2-City.mmdb
+GeoIP2-Country.mmdb
+.geoipupdate.lock
+vendor
 dist
 node_modules
-.idea/
-vendor
+GeoLite2-City.mmdb

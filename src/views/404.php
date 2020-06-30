@@ -1,3 +1,7 @@
+<?php
+	include('../helpers/country_info.php')
+?>
+
 <?php header('X-Robots-Tag: noindex, nofollow', true); ?>
 
 
@@ -23,12 +27,6 @@
         include('../helpers/gtm_no_script.php');
     ?>
     
-    
-    <section class="section1" id="top">
-        <?php
-            include('../partials/header.php');
-        ?>
-    </section>
     
     <!-- JOIN US SECTION-1 START -->
     <section class="join-us-section join-us-section-1 text-center">

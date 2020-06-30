@@ -1,3 +1,7 @@
+<?php
+	include('../helpers/country_info.php')
+?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -6,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>The Bitcoin Revolution App ™ | Terms</title>
+    <meta name="isoCode" content="<?php echo strtolower($country->isoCode) ?>">   
     <link rel="shortcut icon" href="/favicon.ico">
     <link rel="alternate" hreflang="de" href="https://bitcoinrevolution.ai/de/terms-conditions" />
     <link rel="alternate" hreflang="es" href="https://bitcoinrevolution.ai/es/terms-conditions" />
@@ -37,9 +42,9 @@
  <header class="header">
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt="logo image" class="logo"></a>
-        <div class="exclusive-offer">
+      <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
-         
+          <div class="exclusive-flag flag-icon" id="flag-head"></div> 
         </div>
         <div class="div-block-5 lang-box">
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
@@ -454,6 +459,7 @@
 function getLang() { 
     $('#aas').slideDown('slow')
   }
+document.getElementById('flag-head').style.backgroundImage = `url('../assets/flags/<?php echo strtolower($country->isoCode) ?>.PNG')`;
 </script>
 
 </html>

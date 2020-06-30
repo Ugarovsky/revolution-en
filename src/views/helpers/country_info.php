@@ -8,11 +8,19 @@
 	}
 
 	// if localhost take random IP
-	$clientIP = ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') ? '84.194.10.45' : $_SERVER['REMOTE_ADDR'];
-	$geoDBLocation = ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') ? '/GeoIP2-City.mmdb' : '/home/forge/geoip/GeoIP2-City.mmdb';
-
+	$localhost = in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1']);
+	$clientIP = $localhost ? '84.194.10.45' : $_SERVER['REMOTE_ADDR'];
+	$geoDBLocation = $localhost ? '../GeoLite2-City.mmdb' : '/home/forge/geoip/GeoLite2-City.mmdb';
+	try { 
 	$reader = new Reader($geoDBLocation);
+	} catch(Exception $e) {
+		$geoDBLocation = $localhost ? '../../GeoLite2-City.mmdb' : '/home/forge/geoip/GeoLite2-City.mmdb';
+		$reader = new Reader($geoDBLocation);
+	} 
+	
 	$record = $reader->city($clientIP);
+	
+	
 
 	$country = $record->country;
 ?> 

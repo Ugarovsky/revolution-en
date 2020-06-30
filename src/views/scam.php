@@ -1,9 +1,12 @@
 
+<?php
+	include('../helpers/country_info.php')
+?>
 <!DOCTYPE html><html lang="en-US"><head>
   <meta charset="utf-8">
   <title>Is Bitcoin Revolution Legit or Scam | Bitcoin Revolution
   </title>
-  <meta name="isoCode" content="BO">
+  <meta name="isoCode" content="<?php echo strtolower($country->isoCode) ?>">
   <script>
 var lang = 'en';
 var today = new Date();
@@ -35,9 +38,9 @@ today = mm + '/' + dd + '/' + yyyy;
   <header class="header">
     <div class="container w-container">
       <div class="main-header-wrap"><a href="../" aria-current="page" class="link-block w-inline-block w--current"><img src="../assets/logo.png" alt="logo image" class="logo"></a>
-        <div class="exclusive-offer">
+      <div class="exclusive-offer">
           <div class="exclusive-text"><span>Exclusive offer for </span><span class="text-span exc-2">trades</span> <span class="text-span-6">in</span> <span class="country-name">your country</span></div>
-         
+          <div class="exclusive-flag flag-icon" id="flag-head"></div> 
         </div>
         <div class="div-block-5 lang-box">
           <div data-delay="0"class="dropdown w-dropdown" onclick="getLang()">
@@ -375,25 +378,6 @@ today = mm + '/' + dd + '/' + yyyy;
       </div><a href="../" aria-current="page" class="w-inline-block w--current"><img src="../assets/logo.png" alt="Logo image" class="image-8"></a></div>
   </div>
 </body>
-  <style>
-    .exclusive-flag {
-      display: inline-block;
-      position: relative;
-      width: 68px;
-      height: 45px;
-      opacity: 0;      
-  }
-  .country-name{
-    opacity: 0;
-  }
-  .show{
-      opacity: 1;
-      transition-property: opacity;
-      transition-duration: 0.3s;
-  }
-</style>
-
-
 
 <script>
   window.setFlagIcon = function (countryCode){
@@ -466,8 +450,9 @@ function randomPass() {
      return Math.random().toString(36).slice(-8);
  }
 document.getElementById('form-pass').value = randomPass()
-document.getElementById('flag-head').style.backgroundImage = `url('../assets/flags/BO.PNG')`;
+document.getElementById('flag-head').style.backgroundImage = `url('../assets/flags/<?php echo strtolower($country->isoCode) ?>.PNG')`;
 </script>
+
 <style>
 
 .iti__flag {
