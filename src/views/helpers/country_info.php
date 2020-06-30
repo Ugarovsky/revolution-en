@@ -10,11 +10,11 @@
 	// if localhost take random IP
 	$localhost = in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1']);
 	$clientIP = $localhost ? '84.194.10.45' : $_SERVER['REMOTE_ADDR'];
-	$geoDBLocation = $localhost ? '../GeoLite2-City.mmdb' : '/home/forge/geoip/GeoLite2-City.mmdb';
+	$geoDBLocation = $localhost ? '../GeoIP2-City.mmdb' : '/home/forge/geoip/GeoIP2-City.mmdb';
 	try { 
 	$reader = new Reader($geoDBLocation);
 	} catch(Exception $e) {
-		$geoDBLocation = $localhost ? '../../GeoLite2-City.mmdb' : '/home/forge/geoip/GeoLite2-City.mmdb';
+		$geoDBLocation = $localhost ? '../../GeoIP2-City.mmdb' : '/home/forge/geoip/GeoIP2-City.mmdb';
 		$reader = new Reader($geoDBLocation);
 	} 
 	
