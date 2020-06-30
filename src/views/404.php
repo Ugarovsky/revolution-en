@@ -15,8 +15,7 @@
         /*** Google Tag Manager ***/
         include('../helpers/gtm.php');
     ?>
-    <meta name="isoCode" content="<?php echo strtolower($country->isoCode) ?>">   
-    <meta charset="utf-8" />
+  document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/<?php echo strtoupper($country->isoCode) ?>.PNG')`;  <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>404 - Page Not Found</title>    
     <link rel="shortcut icon" href="/favicon.ico">
