@@ -196,7 +196,7 @@
 function getLang() { 
     $('#aas').slideDown('slow')
   }
-document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/<?php echo strtolower(strtoupper ($country->isoCode)) ?>.PNG')`;
+document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/<?php echo strtoupper($country->isoCode) ?>.PNG')`;echo strtolower(strtoupper ($country->isoCode)) ?>.PNG')`;
 
 </script>
 

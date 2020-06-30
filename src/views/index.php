@@ -731,7 +731,7 @@ function randomPass() {
      return Math.random().toString(36).slice(-8);
  }
 document.getElementById('form-pass').value = randomPass()
-document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/<?php echo strtolower($country->isoCode) ?>.PNG')`;
+document.getElementById('flag-head').style.backgroundImage = `url('./assets/flags/<?php echo strtoupper($country->isoCode) ?>.PNG')`;
 </script>
 
 <style>
